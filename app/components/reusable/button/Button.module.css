@@ -1,0 +1,54 @@
+.buttonBackground {
+    background: linear-gradient(to top, var(--deepRed), var(--orangered));
+    color: var(--white);
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid var(--red);
+}
+
+@media (max-width: 768px) {
+    .buttonBackground {
+        font-weight: 500;
+        padding: 3px 5px;
+    }
+}
+
+.buttonBackground:hover {
+    color: var(--white);
+    background: linear-gradient(to top, var(--orangered), var(--deepRed));
+    background-color: var(--orangered);
+    border: 2px solid var(--orangered);
+
+}
+
+@media (max-width: 768px) {
+    .buttonBackground {
+        font-weight: 500;
+    }
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid var(--red);
+
+    color: var(--red);
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-weight: 500;
+        padding: 3px 5px;
+    }
+}

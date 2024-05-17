@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    margin-top: 5px;
+    
+    @media(max-width: 768px) {
+        text-align: center;
+    }
+
+    @media(max-width: 768px) {
+        max-width: 300px;
+        height: fit-content;
+    }
+}

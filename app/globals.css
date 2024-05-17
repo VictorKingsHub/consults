@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #0447B0;
+  --lightBlue: #2F69C4;
+  --lightestBlue: #599AFF;
+  --blueTrans: #0049BC;
+  --blueTrans20: #609EFF;
+
+  --red: rgb(240, 5, 5);
+  --deepRed: #B4141C;
+  --lightRed: #FFF0F3;
+  --lightestRed: rgba(240, 5, 5, 0.021);
+
+  --white: #FFFFFF;
+  --dark: #111111;
+
+  --orangered: orangered;
+  --orange: rgb(255, 123, 0);
+  --lightOrange: #F0AF19;
+  --yellow: #FAC100;
+  --yellowGreen: yellowgreen;
+  
+--fontScratum: stratum-2-web, sans-serif
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: wrap;
+}
+
+
+.edu, .travel{
+  background-color: var(--lightestBlue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tra_service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightestBlue);
+}
+.edu_service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightestRed);
+}

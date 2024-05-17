@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    color: #444444;
+    padding: 5rem;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: fit-content;
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        padding: .5rem;
+        gap: 15px;
+    }
+
+}
+
+.h1 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 27px;
+
+    @media(max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+.travelReasonsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+
+    @media(max-width: 768px) {
+        gap: 3px;
+        max-width: 100vw;
+        padding: .1rem .2rem
+    }
+}
+
+.button_link {
+    background-color: red;
+    color: rgb(245, 239, 239);
+    padding: .4rem .5rem;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+
+    @media(max-width: 768px) {
+        padding: .2rem;
+        font-size: 9px;
+    }
+}
+
+.p {
+    color: rgb(117, 116, 116);
+    max-width: 100%;
+    overflow-wrap: break-word;
+
+    @media(max-width: 768px) {
+        font-size: 10px;
+        line-height: 13px;
+
+    }
+}
+
+/* .button:hover {
+    cursor: pointer;
+    background-color: rgb(197, 2, 2);
+} */
+
+.buttons_group {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    @media(max-width: 768px) {
+        gap: 5px;
+    }
+}

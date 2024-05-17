@@ -1,0 +1,72 @@
+.container {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 100px; */
+    margin: 10px 0;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+}
+
+.text {
+    max-width: 40vw;
+    min-width: 40vw;
+}
+
+.image {
+    max-width: 40vw;
+    min-width: 40vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid teal;
+}
+.subtitle{
+    color: var(--red);
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 10px;
+}
+.title2{
+    color: var(--blue);
+}
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--dark);
+    margin-top: 10px;
+}
+.button{
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 500;
+    margin-top: 5px;
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.travel{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightRed);
+}
+.edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightBlue);
+}

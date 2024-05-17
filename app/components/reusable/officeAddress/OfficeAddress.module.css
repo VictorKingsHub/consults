@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.address {
+
+    @media(max-width: 768px) {
+        max-width: 300px;
+        height: fit-content;
+    }
+}
+.both{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.location{
+    font-weight: 600;
+    color: var(--red);
+}
+.office{
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark);
+}
+.title{
+    color: var(--blue);
+    font-weight: 600;
+    text-align: left;
+}

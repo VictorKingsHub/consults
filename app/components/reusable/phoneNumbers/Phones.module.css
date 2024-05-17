@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--dark);
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    text-align: left;
+
+    @media(max-width: 640px) {
+        text-align: left;
+    }
+}
+.link{
+    color: var(--dark);
+}
+.link:hover{
+    color: var(--blue);
+}

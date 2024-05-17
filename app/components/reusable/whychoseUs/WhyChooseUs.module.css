@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 98vw;
+    height: fit-content;
+    gap: 20px;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem .3rem;
+        min-width: 100vw;
+    }
+}
+
+.text,
+.image {
+    width: 50vw;
+
+}
+
+.image {
+    @media(max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.text {
+    @media(max-width: 768px) {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .text,
+    .image {
+        width: 75vw;
+    }
+}
+
+.image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imageWrapper {
+    padding: .3rem;
+    background-color: transparent;
+    border: 3px double var(--blue);
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 10px;
+
+}
+
+.title {
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px #000000;
+    text-shadow: 4px 4px 9px rgba(26, 25, 25, 0.377);
+}
+
+.why {
+    color: var(--red);
+    padding-right: 7px;
+}
+
+.both {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+    @media(max-width: 768px) {
+        gap: 10px;
+    }
+}
+
+
+.text {
+    padding-right: 30px;
+
+    @media(max-width: 768px) {
+        padding-right: 0;
+    }
+}
+
+
+.iconE,
+.iconO {
+    border-radius: 50%;
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+    padding: 2px;
+    font-size: 22px;
+}
+
+.iconE {
+    background-color: var(--red);
+}
+
+.iconO {
+    background-color: var(--blue);
+}
+
+.label {
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 600;
+
+    @media(max-width: 768px) {
+
+        font-size: 14px;
+    }
+}
+
+.desc {
+    font-size: 17px;
+    color: var(--dark);
+    padding-right: 30px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+@media(max-width: 768px) {
+    .desc {
+        padding-right: 0;
+    }
+}
+
+.iconWrapperE, .iconWrapperO {
+    padding: .2rem;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.iconWrapperE {
+    border: 1px double var(--red);
+}
+.iconWrapperO {
+    border: 1px double var(--blue);
+}
