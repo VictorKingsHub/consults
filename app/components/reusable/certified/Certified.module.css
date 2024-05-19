@@ -19,6 +19,10 @@
     justify-content: start;
     align-items: start;
     gap: 15px;
+
+    @media(max-width: 768px) {
+        padding: .5rem;
+    }
 }
 .texts, .image{
     display: flex;
@@ -40,6 +44,11 @@
     margin-bottom: 10px;
     /* text-shadow: 2px 2px #000000; */
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.315);
+    
+    @media(max-width: 768px) {
+        font-size: 21px;
+        text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.144);
+    }
 }
 .label2{
     font-family: var(--fontScratum);

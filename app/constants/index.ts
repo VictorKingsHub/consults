@@ -3,7 +3,7 @@ export const NAV_LINKS = [
     { href: "/", key: "welcome", label: "Welcome" , id: 1},
     { href: "/travels", key: "travels", label: "Travels" , id:3 },
     { href: "/education", key: "education", label: "Education", id: 4 },
-    { href: "/about", key: "about", label: "About", id: 5 },
+    { href: "/whoWeAre", key: "whoWeAre", label: "WhoWeAre", id: 5 },
     { href: "/contact", key: "contact", label: "Contact", id: 6 }
 ]
 
@@ -38,8 +38,8 @@ export const REVIEW = [
 ]
 
 export const EDUCATIONSERVICES = [
-    { label: "SCHOLARSHIPS", link: "/travel", description: "Riskout Travels conducts comprehensive risk assessments to identify potential hazards and ", image: "/ielts.png", id: 1 },
-    { label: "CAMBRIDGE CURRICULUM", link: "/insurance", description: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeseen events" ,image: "/Screenshot_20240429-224309.png", id: 2},
+    { label: "SCHOLARSHIPS", link: "/travel", description: "Riskout Travels conducts comprehensive risk assessments to identify potential hazards and ", image: "/scholar.jpg", id: 1 },
+    { label: "CAMBRIDGE CURRICULUM", link: "/insurance", description: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeseen events" ,image: "/CambridgeEnglish.PNG", id: 2},
     { label: "TRAINED TEACHERS ACADEMY", link: "/safety-guideance", description: "Riskout Travels provides travels with up-to-date safety guidelines and practical advice. They offer ", image: "/Screenshot_20240429-232525.png" },
 ]
 
@@ -86,7 +86,7 @@ export const FOOTER_CONTENT = {
         { label: "Travel Consulting", link: "/travel", id: 3 },
         { label: "Scholarships", link: "/scholarship", id: 4 },
         { label: "Educational Consulting", link: "/education", id: 5 },
-        { label: "Who We Are", link: "/about" , id: 6},
+        { label: "Who We Are", link: "/whoWeAre" , id: 6},
         { label: "Contact Us", link: "/contact" , id: 6},
         { label: "IELTS Exams", link: "/ielts" , id: 7},
         { label: "Visa Processing", link: "/visaProcessing" , id: 8},

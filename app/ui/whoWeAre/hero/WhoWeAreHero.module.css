@@ -1,0 +1,42 @@
+.container {
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+
+    @media(max-width: 768px) {
+        padding: 1rem .5rem;
+
+    }
+}
+
+.title h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--gray);
+
+    @media(max-width: 768px) {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.desc p {
+    padding: .1rem 10rem;
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    
+    @media(max-width: 768px) {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0 1.3rem;
+        line-height: 19px;
+    }
+}

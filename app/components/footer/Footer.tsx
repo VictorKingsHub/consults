@@ -4,12 +4,6 @@ import { FOOTER_CONTENT } from "@/app/constants"
 import styles from "./Footer.module.css"
 import Link from "next/link"
 import Marquee from "react-fast-marquee";
-// import ReactPlayer from 'react-player'
-
-import { FaLinkedin } from "react-icons/fa6";
-import { FaPhone } from "react-icons/fa6";
-import { BiLogoGmail } from "react-icons/bi";
-import { FaFacebook } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { ButtonBackground } from "../reusable/button/Button";
 import SocialMediaLinks from "../reusable/socialMediaIcons/SocialMediaLinks";
@@ -26,33 +20,20 @@ export default function Footer() {
             <source src="https://www.youtube.com/watch?v=LXb3EKWsInQ" />
           </video>
         </div>
+
         <div className={styles.office}>
-
-        <OfficeAddress />
-{/*           
-          <h1 className={styles.title}>OFFICE ADDRESS</h1>
-
-          <div className={styles.address}>
-            {FOOTER_CONTENT.address.map((address) => {
-              return (
-                <div key={address.id} className={styles.menu_item_title}>
-                  <p key={address.id}> {address.office} </p>
-                </div>
-              )
-            })}
-          </div> */}
-
+          <OfficeAddress />
           <PhonesNumbers />
-
           <SocialMediaLinks />
-
         </div>
+
         <div className={styles.quick_links}>
           <h1 className={styles.title} >QUICK LINK</h1>
           {FOOTER_CONTENT.footerNav.map((nav) => {
             return (<div key={nav.id}> <a href={nav.link} className="menu_item" > {nav.label} </a> </div>)
           })}
         </div>
+
         <div className={styles.opening}>
           <h1 className={styles.title} >OPENING DAYS</h1>
 

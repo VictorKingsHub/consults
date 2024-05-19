@@ -4,6 +4,7 @@ import IeltsCountries from '@/app/ui/travels/ielts/ieltsCountries/IeltsCountries
 import { IeltsIntro } from '@/app/ui/travels/ielts/ieltsIntro/IeltsIntro'
 import IeltsPartnership from '@/app/ui/travels/ielts/ieltsPartnership/IeltsPartnership'
 import IeltsTakes from '@/app/ui/travels/ielts/ieltsTakes/IeltsTakes'
+import IeltsLast from '@/app/ui/travels/ielts/last/IeltsLast'
 import IeltsLearning from '@/app/ui/travels/ielts/learnings/IeltsLearnings'
 
 const IeltsPage = () => {
@@ -23,6 +24,7 @@ const IeltsPage = () => {
       <IeltsConnect />
 
       <IeltsPartnership />
+      {/* <IeltsLast /> */}
     </div>
   )
 }

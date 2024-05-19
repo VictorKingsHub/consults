@@ -1,0 +1,8 @@
+.container{
+    width: 100%;
+    height: 85vh;
+  background-image: linear-gradient(to left, rgba(117, 19, 65, 0), rgba(141, 133, 116, 0.438)), url('/shool_learn.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;   
+}

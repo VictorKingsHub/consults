@@ -8,7 +8,7 @@ const Review = () => {
   return (
     <div className={styles.container}>
       <div className={styles.h1}>
-        <ServicesHead title='Clients Review' />
+        <h1>Clients' Review</h1>
       </div>
       <div className={styles.client_comment}>
         {REVIEW.map((item) => {
@@ -16,7 +16,7 @@ const Review = () => {
             <div className={styles.client} key={item.id} >
               <div className={styles.fz} >
                 <div>
-                  <Image src={item.img} alt={item.name} width={50} height={50} className='rounded-full' />
+                  <Image src={item.img} alt={item.name} width={50} height={50} className={styles.img} />
                 </div>
                 <div className={styles.details}>
                   <span className={styles.name}> {item.name} </span>

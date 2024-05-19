@@ -1,6 +1,6 @@
 .container {
     background-color: var(--lightOrange);
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,8 +16,8 @@
 }
 
 .title {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 27px;
+    font-weight: 600;
     color: var(--dark);
     font-family: var(--fontScratum);
     width: 90%;
@@ -32,7 +32,7 @@
 }
 
 .container p {
-    padding: 0.5rem 18rem;
+    padding: 0.1rem 18rem;
     font-size: 18px;
     line-height: 21px;
     width: 90%;

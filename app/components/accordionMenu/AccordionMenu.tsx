@@ -1,29 +1,23 @@
 "use client"
 import React, { useState } from 'react'
 import data from "./data"
-// import "./styles.css"
 import styles from "./AccordionMenu.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
-import { ServicesHead } from '../reusable/servicesHead/ServicesHead'
-
-
 
 function AccordionMenu() {
     const [selected, setSelected] = useState(1)
-
     const handleSelection = (getCurrentId: any) => {
         setSelected(getCurrentId)
     }
 
     return (
         <div className={styles.container}>
-            <div className="mb-3">
-                <ServicesHead title='Our Educational Services' />
+            <div className={styles.edu}>
+                <h1>Our Educational Services</h1>
             </div>
             <div className={styles.both}>
                 <div className={styles.wrapper}>
-                    
                     {data.map((list: any) => {
                         return (
                             <div key={list.id}>

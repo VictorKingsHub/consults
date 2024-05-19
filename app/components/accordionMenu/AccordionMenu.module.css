@@ -1,30 +1,27 @@
 .container {
-    max-width: 100vw;
-    min-width: 100vw;
+    max-width: 100%;
+    min-width: 100%;
     height: 70vh;
-    color: white;
-    background-color: var(--lightestBlue);
-    padding: 3px;
+    color: var(--dark);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-    background-image: url("/glass.png");
-    background-color: var(--orangered); /* Adjust opacity as needed */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem 4rem;
+     
+    /* background-image: url("/glass.png");
+    background-color: var(--orangered); 
     background-repeat: no-repeat; 
-    background-position: top right; /* Optional: position the image */
+    background-position: top right;
     background-size: 20%;
-  background: linear-gradient(to top left,  var(--deepRed), var(--orangered));
-
+    background-color: var(--white); */
   
-}
-@media(max-width: 768px) {
-    .container{
-        height: fit-content;
+    @media(max-width: 768px) {
+            height: fit-content;
+            padding: 1rem .5rem;
     }
-
 }
 
 .both {
@@ -61,19 +58,27 @@
     padding: .5rem;
 }
 
+.edu{
+    color: var(--blue);
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .question {
-    padding: 3px 5px;
+    padding: .3rem;
     font-size: 15px;
     font-weight: 500;
     border-radius: 2px;
     cursor: pointer;
-
     text-align: center;
-    color:  rgb(248, 240, 240);
-    border-bottom: 1px solid rgb(224, 219, 219);
+    color: var(--white);
+    background-color: var(--blue);
 }
 .question:hover {
-    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 500;
+    opacity: .8;
 }
 
 @media(max-width: 768px) {
@@ -84,16 +89,16 @@
 
 }
 .active{
-    /* background-color: gray; */
-    padding: 3px 5px;
+    padding: .3rem;
     font-size: 15px;
     font-weight: 500;
+    color: var(--white);
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
+    background-color: var(--red);
     /* background-color: orange ; */
     /* background: linear-gradient(to top, orangered, #BE375f); */
-    border-bottom: 2px solid var(--white);
 
 
 }
@@ -132,7 +137,7 @@
 .title {
     font-size: 25px;
     font-weight: 500;
-    color: var(--white);
+    color: var(--dark);
 }
 @media(max-width: 768px) {
     .title{
@@ -198,19 +203,19 @@
 
 }
 .desc{
-    color: var(--white);
+    color: var(--dark);
 }
 
 .button {
     margin-top: 10px;
     background-color: transparent;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--blue);
     font-weight: 500;
-    color: var(--white);
+    color: var(--blue);
     padding: 5px;
     border-radius: 5px;
 }
 .button:hover{
-    background-color: var(--orange);
+    background-color: var(--blue);
     color: var(--white);
 }

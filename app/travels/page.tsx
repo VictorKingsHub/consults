@@ -43,7 +43,7 @@ const TravelsPage = () => {
         {/* <ServicesHead title='Travel Services' /> */}
         {/* <ServicesPage /> */}
       </div>
-      <Join />
+      {/* <Join /> */}
       {/* <TravelReasons /> */}
     </div>
   )

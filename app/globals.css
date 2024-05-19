@@ -15,7 +15,12 @@
   --lightestRed: rgba(240, 5, 5, 0.021);
 
   --white: #FFFFFF;
+  --light: #F2F5FB;
   --dark: #111111;
+  --gray: #444746;
+--smoke: rgb(224, 221, 221) ;
+--footerBlaack: rgb(27, 27, 27);
+
 
   --orangered: orangered;
   --orange: rgb(255, 123, 0);
@@ -34,9 +39,28 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-x: wrap;
+  overflow-x: hidden;
+  min-width: 100vw;
+  max-width: 100vw;
+
 }
 
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  max-width: 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+
+  @media(max-width: 768px) {
+        padding: 1rem 0;
+}
+}
 
 .edu, .travel{
   background-color: var(--lightestBlue);

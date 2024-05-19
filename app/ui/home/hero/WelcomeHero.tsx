@@ -21,20 +21,18 @@ const WelcomeHero = () => {
                     <Image src={photo4} alt='plane' width={250} height={250} className={styles.imgplane} />
                 </div>
             </div>
-            {/* <div className={styles.image}>
-                <Image src={photo4} alt='plane' width={500} height={500} />
-            </div> */}
+
             <div className={styles.image}>
-        <div className={styles.imageWrapper}>
-          <Image
-            src="/man.jpg"
-            width={350}
-            height={350}
-            alt='traveller'
-            className={styles.img}
-          />
-        </div>
-      </div>
+                <div className={styles.imageWrapper}>
+                    <Image
+                        src="/man.jpg"
+                        width={350}
+                        height={350}
+                        alt='traveller'
+                        className={styles.img}
+                    />
+                </div>
+            </div>
         </div>
     )
 }

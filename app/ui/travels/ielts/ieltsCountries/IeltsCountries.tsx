@@ -16,7 +16,7 @@ const IeltsCountries = () => {
   return (
     <div className={styles.wrapper}>
         <div className={styles.text}>
-          <h1>Find Out Where IELTS can take you</h1>
+          <h1>Find out where <span className={styles.ielts}>IELTS</span> can take you</h1>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur incidunt suscipit at perferendis adipisci nobis doloribus. Suscipit maxime quibusdam reprehenderit vel, esse at fuga expedita ea iste sapiente libero! </p>
         </div>
       <div className={styles.container}>

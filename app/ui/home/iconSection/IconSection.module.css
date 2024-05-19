@@ -1,55 +1,59 @@
 
 .container{
-  background: linear-gradient(to top left,  var(--blue), var(--red));
-  min-width: 100vw;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.3rem 1rem;
+  padding: 1.3rem 4rem;
+  width: 100%;
+  background-color: var(--white);
+  
+  @media(max-width: 768px) {
+    padding: .2rem;
+  }
 }
 
 .wrapper {
-  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   align-self: center;
   border-radius: 5px;
-  gap: 30px;
+  gap: 20px;  
+  width: 100%;
   
   @media(max-width: 768px) {
-    width: 98vw;
-    padding: 1px;
-    border: 1px solid var(--red);
-  }
+    gap: 1px;
   
-  @media(min-width: 768px) {
-    width: 63vw;
   }
 }
 
 .iconText {
   text-align: center;
   color: var(--white);
+  font-size: 18px;
   
   @media(max-width: 768px) {
-    font-size: .5rem;
+    font-size: 7px;
   }
 
   @media(min-width: 768px) {
     font-size: 0.75rem;
   }
 }
-.iconText:hover{
+/* .iconText:hover{
   color: var(--yellow);
-}
+} */
 .serviceIcon {
-  width: 50px;
+  width: 40px;
 
   @media(max-width: 768px) {
     width: 22px;
+    display: none;
   }
 
   @media(min-width: 768px) {
@@ -60,10 +64,15 @@
 .link{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .serviceIcon:hover, .link:hover{
-  color: var(--yellow);
+  /* color: var(--yellow); */
   font-weight: 500px;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .both {
@@ -71,11 +80,26 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-} 
+  text-align: center;
+  background-color: var(--blue);
+  padding: 0.3rem;
 
+
+  @media(max-width: 768px) {
+    font-size: 1.5rem;
+    flex-direction: column;
+  }
+} 
+.both:hover{
+  background-color: var(--red);
+}
 .serviceIcon {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--white);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
   @media(max-width: 768px) {
     font-size: 2.5rem;

@@ -31,7 +31,7 @@ export function CentralText({ subTitle, title, title2, description, link, text }
                     <hr className={styles.hr} />
                 </div>
                 <div className="mt-3">
-                    {link && <ButtonBackground text={'Connect With Us'} link={"/about"} />
+                    {link && <ButtonBackground text={'Connect With Us'} link={"/whoWeAre"} />
                     }
 
                 </div>

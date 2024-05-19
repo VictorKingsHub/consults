@@ -19,7 +19,7 @@ const Navbar = () => {
           <ul style={{ color: "rgb(68, 68, 68)" }} className="hidden flex-row justify-between text-black  space-center md:flex">
             {NAV_LINKS.map((menuitem) => {
               return (
-                <Link href={menuitem.href} key={menuitem.id} className="font-semibold mx-4 text-[#555555] font-medium cursor-pointer font-stratum-2-web hover:text-red-600 transition-all"> {menuitem.label} </Link>
+                <Link href={menuitem.href} key={menuitem.id} className="font-semibold mx-4 text-[#111111] font-medium cursor-pointer font-stratum-2-web hover:text-red-600 transition-all"> {menuitem.label} </Link>
               )
             })}
 
