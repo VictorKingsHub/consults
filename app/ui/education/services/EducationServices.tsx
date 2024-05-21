@@ -24,7 +24,7 @@ const EducationServicesPage = () => {
             <div className={styles.wrapper}>
                 {EDUCATIONSERVICES.map((serviceItem) => {
                     return (
-                        <div className={styles.service}>
+                        <div className={styles.service} key={serviceItem.id}>
                             <Link href={serviceItem.link}>
                                 <Image
                                     src={serviceItem.image}

@@ -26,7 +26,7 @@ const TravelServicesPage = () => {
             <div className={styles.wrapper}>
                 {TRAVELSERVICES.map((serviceItem) => {
                     return (
-                        <div className={styles.service}>
+                        <div className={styles.service} key={serviceItem.id}>
                             <Link href={serviceItem.link}>
                                 <Image
                                     src={serviceItem.image}

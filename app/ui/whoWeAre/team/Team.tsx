@@ -48,7 +48,7 @@ export default function TeamSection() {
                 <div className={styles.answer}>
                     {data.map((ans) => {
                         return (
-                            <div className={styles.allAnswer}>
+                            <div className={styles.allAnswer} key={ans.id}>
                                 {selected === ans.id && (
                                     <div className={styles.com}>
                                         <div className={styles.answerImg}>

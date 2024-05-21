@@ -21,7 +21,7 @@ const IeltsPartnership = () => {
             <div className={styles.down}>
                 {Partners.map((partner) => {
                     return (
-                        <div className={styles.partner}>
+                        <div className={styles.partner} key={partner.id}>
                             <div className={styles.img}>
                                 <Image src={partner.img} width={300} height={300} alt={partner.label} key={partner.id} />
                             </div>
