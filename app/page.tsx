@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <main className="page">
 
-      <WelcomeHero />
+      {/* <WelcomeHero />
 
-      {/* <IconSection /> */}
+      <IconSection />
 
       <CentralText
         title={"Get the most satisfying services"}
@@ -27,7 +27,7 @@ export default function Home() {
 
       <Review />
 
-      <Last />
+      <Last /> */}
 
 
     </main>
