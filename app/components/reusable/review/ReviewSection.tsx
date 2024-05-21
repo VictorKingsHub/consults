@@ -19,7 +19,7 @@ const Review = () => {
                 </div>
                 <div className={styles.details}>
                   <span className={styles.name}> {item.name} </span>
-                  <span className={styles.prof}> {item.professionn}</span>
+                  <span className={styles.prof}> {item.profession}</span>
                 </div>
               </div>
               <div className={styles.comment}>  {item.Comment}  </div>

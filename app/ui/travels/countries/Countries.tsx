@@ -23,7 +23,7 @@ const CountryDropdown = () => {
        
       {COUNTRIES_OPTIONS.map((image: any) => {
         return (
-          <Image src={image.photo} width={300} height={300} alt={image.name}/>
+          <Image src={image.photo} width={300} height={300} alt={image.name} key={image.key}/>
         )
       })}
 
