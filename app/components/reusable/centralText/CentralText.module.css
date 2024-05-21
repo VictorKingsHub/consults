@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     height: fit-content;
-    padding: 4rem 4rem;
+    padding: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@
 
     @media (max-width: 768px) {
             font-size: 15px;
-            line-height: 18px;
+            line-height: 20px;
             padding: 0 1rem;
             text-align: left;
     }

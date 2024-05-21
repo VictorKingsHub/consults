@@ -10,10 +10,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 2rem 4rem;
-  
+
     @media(max-width: 768px) {
-            height: fit-content;
-            padding: 1rem .5rem;
+        height: fit-content;
+        padding: 1rem .5rem;
     }
 }
 
@@ -23,7 +23,7 @@
 }
 
 @media(max-width: 768px) {
-    .both{
+    .both {
         width: 100vw;
     }
 
@@ -40,7 +40,7 @@
 }
 
 @media(max-width: 768px) {
-    .wrapper{
+    .wrapper {
         flex-direction: column;
         gap: 2px;
     }
@@ -51,17 +51,19 @@
     padding: .5rem;
 }
 
-.edu{
+.edu h1 {
     color: var(--blue);
     margin-bottom: 7px;
     font-weight: 600;
     font-size: 20px;
+
+    @media(max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 .question {
-    /* padding: .3rem; */
-  padding: .4rem .5rem;
-
+    padding: .4rem .5rem;
     font-size: 13px;
     font-weight: 600;
     border-radius: 2px;
@@ -70,19 +72,25 @@
     color: var(--blue);
     background-color: var(--light);
     text-transform: uppercase;
+
+    @media(max-width: 768px) {
+        font-size: 12px;
+    }
 }
+
 .question:hover {
     opacity: .8;
 }
 
 @media(max-width: 768px) {
-    .question{
+    .question {
         font-size: 14px;
         padding: 3px 4px;
     }
 
 }
-.active{
+
+.active {
     padding: .3rem;
     font-weight: 500;
     color: var(--white);
@@ -98,7 +106,7 @@
 }
 
 @media(max-width: 768px) {
-    .active{
+    .active {
         font-size: 14px;
         padding: 3px 4px;
     }
@@ -121,8 +129,8 @@
 }
 
 @media(max-width: 768px) {
-    .answer{
-        width: 90vw !important; 
+    .answer {
+        width: 90vw !important;
         padding: 7px 10px;
     }
 
@@ -132,16 +140,12 @@
     font-size: 25px;
     font-weight: 500;
     color: var(--dark);
-}
-@media(max-width: 768px) {
-    .title{
-        font-size: 20px;
-        text-align: center;
+
+    @media(max-width: 768px) {
+            font-size: 13px;
+            text-align: center;
     }
-
 }
-
-
 
 .com {
     display: flex;
@@ -152,7 +156,7 @@
 }
 
 @media(max-width: 768px) {
-    .com{
+    .com {
         flex-direction: column-reverse;
         gap: 10px;
     }
@@ -171,16 +175,20 @@
 }
 
 @media(max-width: 768px) {
-    .answerImg, .answerText{
+
+    .answerImg,
+    .answerText {
         width: 95vw;
     }
 
 }
-.img{
+
+.img {
     margin: 0 auto;
 }
+
 @media(max-width: 768px) {
-    .img{
+    .img {
         width: 150px;
     }
 
@@ -188,16 +196,21 @@
 
 .but {
     margin-top: 20px;
-}
-@media(max-width: 768px) {
-    .but{
-        margin-left: 10px;
-        margin-top: 12px;
-    }
 
+    @media(max-width: 768px) {
+            margin-left: 10px;
+            margin-top: 12px;
+    }
 }
-.desc{
+
+
+
+.desc {
     color: var(--dark);
+    @media(max-width: 768px) {
+        font-size: 12px;
+}
+
 }
 
 .button {
@@ -208,8 +221,13 @@
     color: var(--blue);
     padding: 5px;
     border-radius: 5px;
+
+    @media(max-width: 768px) {
+        font-size: 12px;
 }
-.button:hover{
+}
+
+.button:hover {
     background-color: var(--blue);
     color: var(--white);
 }
