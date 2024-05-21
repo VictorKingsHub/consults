@@ -35,7 +35,7 @@ function AccordionMenu() {
 
                     {data.map((list: any) => {
                         return (
-                            <div className={styles.allAnswer}>
+                            <div className={styles.allAnswer} key={list.id}>
                                 {selected === list.id && (
                                     <div className={styles.com}>
                                         <div className={styles.answerImg}>
