@@ -38,13 +38,13 @@
 .iconText {
   text-align: center;
   color: var(--white);
-  font-size: 18px;
+  font-size: 22px;
   color: var(--blue);
   font-weight: 600;
   text-transform: capitalize;
   
   @media(max-width: 768px) {
-    font-size: 7px;
+    font-size: 12px;
   }
 
   @media(min-width: 768px) {
@@ -56,9 +56,6 @@
   font-weight: 500;
 }
 
-/* .iconText:hover{
-  color: var(--yellow);
-} */
 .serviceIcon {
   width: 40px;
 

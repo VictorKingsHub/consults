@@ -21,7 +21,7 @@ export default function Home() {
         text={"Stay Conected"}
         link={"/about"} />
 
-      {/* <AccordionMenu /> */}
+      <AccordionMenu />
 
       <Join />
 
