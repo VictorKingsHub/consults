@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <main className="page">
 
-      {/* <WelcomeHero />
+       <WelcomeHero />
 
-      <IconSection />
+       <IconSection />
 
       <CentralText
         title={"Get the most satisfying services"}
@@ -21,13 +21,13 @@ export default function Home() {
         text={"Stay Conected"}
         link={"/about"} />
 
-      <AccordionMenu />
+      {/* <AccordionMenu /> */}
 
       <Join />
 
       <Review />
 
-      <Last /> */}
+      <Last />  
 
 
     </main>
