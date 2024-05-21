@@ -58,7 +58,7 @@
     font-size: 20px;
 
     @media(max-width: 768px) {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
@@ -142,7 +142,7 @@
     color: var(--dark);
 
     @media(max-width: 768px) {
-            font-size: 13px;
+            font-size: 18px;
             text-align: center;
     }
 }
@@ -207,8 +207,9 @@
 
 .desc {
     color: var(--dark);
+
     @media(max-width: 768px) {
-        font-size: 12px;
+        font-size: 15px;
 }
 
 }
@@ -224,6 +225,7 @@
 
     @media(max-width: 768px) {
         font-size: 12px;
+        border: 1px;
 }
 }
 
