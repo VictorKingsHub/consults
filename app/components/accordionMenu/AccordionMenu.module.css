@@ -74,20 +74,13 @@
     text-transform: uppercase;
 
     @media(max-width: 768px) {
-        font-size: 12px;
+        font-size: 14px;
+        padding: 3px 4px;
     }
 }
 
 .question:hover {
     opacity: .8;
-}
-
-@media(max-width: 768px) {
-    .question {
-        font-size: 14px;
-        padding: 3px 4px;
-    }
-
 }
 
 .active {
@@ -100,9 +93,6 @@
     background-color: var(--blue);
     font-size: 13px;
     text-transform: uppercase;
-
-
-
 }
 
 @media(max-width: 768px) {
