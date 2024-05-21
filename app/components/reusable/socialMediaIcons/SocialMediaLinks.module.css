@@ -5,6 +5,11 @@
     justify-content: start;
     text-align: left;
     margin-top: 5px;
+    background-color: rgb(54, 53, 53);
+    width: fit-content;
+    padding: .3rem 0.5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(34, 33, 33);
     
     @media(max-width: 768px) {
         text-align: center;

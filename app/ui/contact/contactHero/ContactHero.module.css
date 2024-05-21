@@ -1,0 +1,13 @@
+.container{
+    background-color: var(--light);
+    padding: 4rem 6rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--dark);
+}

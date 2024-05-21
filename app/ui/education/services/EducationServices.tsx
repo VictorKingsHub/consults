@@ -33,7 +33,8 @@ const EducationServicesPage = () => {
                                     alt={serviceItem.label}
                                     onMouseEnter={() => handleSelection(serviceItem.id)}
                                     onMouseLeave={() => handleSelection(null)}
-                                    className={` ${selected === serviceItem.id ? styles.activeImg : styles.img} `} />
+                                    className={` ${selected === serviceItem.id ? styles.activeImg : styles.img} `}
+                                />
                             </Link>
                             <div className={styles.both}>
                                 <h1
@@ -41,14 +42,6 @@ const EducationServicesPage = () => {
                                 >{serviceItem.label}</h1>
                                 <p className={styles.desc}> {serviceItem.description} </p>
                             </div>
-                            <div className={styles.votes}>
-                                    <div className={styles.year}>
-                                        <span>Yearly:</span> 11,532
-                                    </div>
-                                    <div className={styles.thumbs}>
-                                        👍
-                                    </div>
-                                </div>
                         </div>
                     )
                 })}

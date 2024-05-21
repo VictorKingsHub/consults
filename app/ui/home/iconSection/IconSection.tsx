@@ -17,40 +17,40 @@ const IconSection = () => {
       <div className={styles.wrapper}>
         <div className={styles.both}>
           <Link href="/travels/visaprocessing" className={styles.link}>
-            <CiCompass1 className={styles.serviceIcon} />
+            {/* <CiCompass1 className={styles.serviceIcon} /> */}
             <div className={styles.iconText}> VISA PROCESSING </div>
           </Link>
         </div>
         <div className={styles.both}>
           <Link href="/travels/ielts" className={styles.link} >
-            <PiGraduationCapThin className={styles.serviceIcon} />
+            {/* <PiGraduationCapThin className={styles.serviceIcon} /> */}
             <div className={styles.iconText}> IELTS EXAMS </div>
           </Link>
         </div>
 
         <div className={styles.both}>
-          <Link href="/travels" className={styles.link}>
-            <PiBookOpenTextThin className={styles.serviceIcon} />
+          <Link href="/travels/insurance" className={styles.link}>
+            {/* <PiBookOpenTextThin className={styles.serviceIcon} /> */}
             <div className={styles.iconText}> TRAVEL INSURANCE </div>
           </Link>
         </div>
 
         <div className={styles.both}>
           <Link href="/travels" className={styles.link} >
-            <PiHeartLight className={styles.serviceIcon} />
+            {/* <PiHeartLight className={styles.serviceIcon} /> */}
             <div className={styles.iconText}> RISK MANAGEMENT </div>
           </Link>
         </div>
 
         <div className={styles.both}>
           <Link href="/travels" className={styles.link} >
-            <PiChalkboardTeacherThin className={styles.serviceIcon} />
+            {/* <PiChalkboardTeacherThin className={styles.serviceIcon} /> */}
             <div className={styles.iconText}> RISK ACCESSMENT </div>
           </Link>
         </div>
         <div className={styles.both}>
           <Link href="/travels" className={styles.link}>
-            <PiAirplaneTiltThin className={styles.serviceIcon} />
+            {/* <PiAirplaneTiltThin className={styles.serviceIcon} /> */}
             <div className={styles.iconText} > TRAVEL AGENCY </div>
           </Link>
         </div>

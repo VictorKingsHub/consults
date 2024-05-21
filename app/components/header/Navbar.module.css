@@ -1,0 +1,91 @@
+.container {
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem 4rem;
+    background-color: var(--white);
+    opacity: .9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    @media(max-width: 768px) {
+        padding: .3re .5rem;
+    }
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.largeMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+
+    @media(max-width: 768px) {
+        display: none;
+    }
+}
+
+.largeMenu ul {
+    color: var(--dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.largeMenuItem {
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0 1rem;
+    color: var(--dark);
+}
+
+.largeMenuItem:hover {
+    opacity: .8;
+}
+
+.active {
+    color: var(--red);
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0 1rem;
+}
+
+.appoint {
+    display: flex;
+
+    @media(max-width: 768px) {
+        display: none;
+    }
+}
+
+.smallMenu {
+    display: none;
+    position: sticky;
+    right: 0;
+
+    @media(max-width: 768px) {
+        display: flex;
+    }
+}
+
+.smallUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.smallItems {
+    cursor: pointer;
+    color: red;
+}

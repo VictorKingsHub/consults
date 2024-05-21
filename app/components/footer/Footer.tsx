@@ -9,6 +9,7 @@ import { ButtonBackground } from "../reusable/button/Button";
 import SocialMediaLinks from "../reusable/socialMediaIcons/SocialMediaLinks";
 import PhonesNumbers from "../reusable/phoneNumbers/Phones";
 import OfficeAddress from "../reusable/officeAddress/OfficeAddress";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -16,9 +17,8 @@ export default function Footer() {
 
       <div className={styles.one}>
         <div className={styles.video}>
-          <video controls={true} muted={true} width="280px" height="250px">
-            <source src="https://www.youtube.com/watch?v=LXb3EKWsInQ" />
-          </video>
+         
+      <Image src={"/footer.PNG"} width={300} height={200} alt="services"/>
         </div>
 
         <div className={styles.office}>
@@ -30,7 +30,7 @@ export default function Footer() {
         <div className={styles.quick_links}>
           <h1 className={styles.title} >QUICK LINK</h1>
           {FOOTER_CONTENT.footerNav.map((nav) => {
-            return (<div key={nav.id}> <a href={nav.link} className="menu_item" > {nav.label} </a> </div>)
+            return (<div key={nav.id}> <a href={nav.link} className={styles.menu_item} > {nav.label} </a> </div>)
           })}
         </div>
 
@@ -38,8 +38,8 @@ export default function Footer() {
           <h1 className={styles.title} >OPENING DAYS</h1>
 
           <div className="md:text-center" style={{ display: "flex", flexDirection: "column", alignItems: "start" }}>
-            <div className={styles.time}> <span className=" text-gray-500 "><IoMdTime /> </span> <p className="ml-3 ">Monday - Friday: 8:00am - 5:00pm</p>  </div>
-            <div className={styles.time}> <span className=" text-gray-500"><IoMdTime /> </span> <p className="ml-3"> Saturday: 9:00am - 3:00pm </p>  </div>
+            <div className={styles.time}> <span className=" text-[#f8f8f8] "><IoMdTime /> </span> <p className="ml-3 text-[#f8f8f8]">Monday - Friday: 8:00am - 5:00pm</p>  </div>
+            <div className={styles.time}> <span className=" text-[#f8f8f8]"><IoMdTime /> </span> <p className="ml-3 text-[#f8f8f8]"> Saturday: 9:00am - 3:00pm </p>  </div>
           </div>
           <div className="mt-5">
             <ButtonBackground text={"Request an apointment"} link={"/contact"} />

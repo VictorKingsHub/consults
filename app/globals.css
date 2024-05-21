@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --blue: #0447B0;
+  --blue: #05388a;
   --lightBlue: #2F69C4;
   --lightestBlue: #599AFF;
   --blueTrans: #0049BC;
@@ -17,6 +17,7 @@
   --white: #FFFFFF;
   --light: #F2F5FB;
   --dark: #111111;
+  --footerDark: #202020;
   --gray: #444746;
 --smoke: rgb(224, 221, 221) ;
 --footerBlaack: rgb(27, 27, 27);

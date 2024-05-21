@@ -89,6 +89,8 @@
     letter-spacing: .2px;
     line-height: 18px;
     color: rgb(94, 91, 91);
+    font-family: WorkSans-Regular, sans-serif;
+
 }
 .cards{
     display: flex;

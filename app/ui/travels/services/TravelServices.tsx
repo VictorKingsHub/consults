@@ -24,7 +24,6 @@ const TravelServicesPage = () => {
             </div>
 
             <div className={styles.wrapper}>
-
                 {TRAVELSERVICES.map((serviceItem) => {
                     return (
                         <div className={styles.service}>
@@ -38,22 +37,10 @@ const TravelServicesPage = () => {
                                     onMouseLeave={() => handleSelection(null)}
                                     className={` ${selected === serviceItem.id ? styles.activeImg : styles.img} `} />
                             </Link>
-                            <div className={styles.both}>
-                                <h1
-                                    className={` ${selected === serviceItem.id ? styles.activeLabel : styles.label} `}
-                                >{serviceItem.label}</h1>
-                                <p className={styles.desc}> {serviceItem.description} </p>
-
-                                <div className={styles.votes}>
-                                    <div className={styles.year}>
-                                        <span>Yearly:</span> 11,532
-                                    </div>
-                                    <div className={styles.thumbs}>
-                                        👍
-                                    </div>
-                                </div>
-                            </div>
-
+                            <h1
+                                className={` ${selected === serviceItem.id ? styles.activeLabel : styles.label} `}
+                            >{serviceItem.label}</h1>
+                            <p className={styles.desc}> {serviceItem.description} </p>
                         </div>
                     )
                 })}

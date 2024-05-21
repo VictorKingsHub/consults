@@ -7,16 +7,16 @@ import { BiLogoGmail } from 'react-icons/bi'
 export default function SocialMediaLinks() {
     return (
         <div className={styles.container}>
-                <div className="text-[#4da251] text-[1.2rem]" >
+                <div className="text-[#4da251] text-[1.1rem]" >
                     <Link target='-blank' href="tel:+2348028600330 "> <FaPhone /> </Link>
                 </div>
-                <div className="ml-5 text-[1.5rem] text-[#e34133]">
+                <div className="ml-5 text-[1.4rem] text-[#e34133]">
                     <Link target='-blank' href="mailto:riskoutconsults@gmail.com"> <BiLogoGmail /> </Link>
                 </div>
-                <div className="ml-5 text-[1.5rem] text-[#3d73eb]">
+                <div className="ml-5 text-[1.4rem] text-[#3d73eb]">
                     <Link target='-blank' href="https://www.facebook.com/Riskouteduconsults"> <FaFacebook /> </Link>
                 </div>
-                <div className="ml-5 text-[1.5rem] text-[#3c7ab6]">
+                <div className="ml-5 text-[1.4rem] text-[#3c7ab6]">
                     <Link target='-blank' href="https://www.linkedin.com/in/riskout-consults-161511270"> <FaLinkedin /> </Link>
                 </div>
         </div>

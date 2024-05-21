@@ -16,7 +16,9 @@
     }
 }
 .link{
-    color: var(--dark);
+    /* color: var(--dark); */
+    color: var(--smoke);
+    font-size: 14px;
 }
 .link:hover{
     color: var(--blue);

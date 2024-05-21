@@ -8,6 +8,8 @@
     gap: 20px;
     padding: 3rem 2rem;
     margin: 0 auto;
+    font-family: WorkSans-Regular, sans-serif;
+
 }
 
 @media(max-width: 768px) {
@@ -125,11 +127,10 @@
 
 .label {
     color: var(--dark);
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
 
     @media(max-width: 768px) {
-
         font-size: 14px;
     }
 }
@@ -148,14 +149,17 @@
     }
 }
 
-.iconWrapperE, .iconWrapperO {
+.iconWrapperE,
+.iconWrapperO {
     padding: .2rem;
     background-color: transparent;
     border-radius: 50%;
 }
+
 .iconWrapperE {
     border: 1px double var(--red);
 }
+
 .iconWrapperO {
     border: 1px double var(--blue);
 }

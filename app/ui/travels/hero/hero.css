@@ -26,7 +26,6 @@
   @media(max-width: 920px) {
     min-height: 60vh;
   }
-
 }
 
 .one {
@@ -59,7 +58,7 @@
 }
 
 .three {
-  background-image: linear-gradient(to left, rgba(216, 29, 29, 0.151), rgba(184, 21, 21, 0.521)), url('/travelHero.jpg');
+  background-image: linear-gradient(to left, rgba(216, 29, 29, 0.151), rgba(131, 67, 67, 0.795)), url('/travelHero.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,7 +68,6 @@
   align-items: center;
   gap: 15px;
   width: 100%;
-
 }
 
 .four {
@@ -126,11 +124,10 @@
 
 .right {
   width: 30%;
-
 }
 
 .title {
-  font-size: 50px;
+  font-size: 45px;
   color: var(--white);
   text-shadow: 2px 2px #000000;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
@@ -142,13 +139,11 @@
     line-height: 37px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
-
-
 }
 
 .desc p {
   color: var(--white);
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 30px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
@@ -157,7 +152,6 @@
   @media(max-width: 768px) {
     font-size: 16px;
     line-height: 20px;
-
   }
 }
 
@@ -168,19 +162,16 @@
   line-height: 30px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
 
-
   @media(max-width: 768px) {
     font-size: 16px;
     line-height: 20px;
     margin: 0 1rem;
   }
-
 }
 
 .three>.desc>p {
   color: var(--white);
   font-size: 16px;
-  /* font-weight: 300; */
   line-height: 20px;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
 }
@@ -194,7 +185,6 @@
   justify-content: center;
   align-items: center;
 
-
   @media(max-width: 768px) {
     margin: 0;
     width: 100%;
@@ -202,21 +192,23 @@
     justify-content: center;
     align-items: center;
   }
-
 }
 
 .connect {
   background-color: var(--white);
   color: var(--red);
   font-weight: 600px;
-  padding: 7px;
+  padding: 4px 8px;
   border-radius: 5px;
+  font-size: 14px;
 
   @media(max-width: 768px) {
     padding: 4px;
   }
 }
-
+.connect:hover{
+  font-weight: 600;
+}
 .three>.desc {
   @media(max-width: 768px) {
     display: none;

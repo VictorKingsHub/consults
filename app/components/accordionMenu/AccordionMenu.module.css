@@ -10,13 +10,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 2rem 4rem;
-     
-    /* background-image: url("/glass.png");
-    background-color: var(--orangered); 
-    background-repeat: no-repeat; 
-    background-position: top right;
-    background-size: 20%;
-    background-color: var(--white); */
   
     @media(max-width: 768px) {
             height: fit-content;
@@ -66,18 +59,19 @@
 }
 
 .question {
-    padding: .3rem;
-    font-size: 15px;
-    font-weight: 500;
+    /* padding: .3rem; */
+  padding: .4rem .5rem;
+
+    font-size: 13px;
+    font-weight: 600;
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    color: var(--white);
-    background-color: var(--blue);
+    color: var(--blue);
+    background-color: var(--light);
+    text-transform: uppercase;
 }
 .question:hover {
-    color: var(--white);
-    font-weight: 500;
     opacity: .8;
 }
 
@@ -90,15 +84,15 @@
 }
 .active{
     padding: .3rem;
-    font-size: 15px;
     font-weight: 500;
     color: var(--white);
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    background-color: var(--red);
-    /* background-color: orange ; */
-    /* background: linear-gradient(to top, orangered, #BE375f); */
+    background-color: var(--blue);
+    font-size: 13px;
+    text-transform: uppercase;
+
 
 
 }

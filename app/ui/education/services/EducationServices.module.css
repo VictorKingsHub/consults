@@ -72,9 +72,9 @@
     height: 50vh;
     align-self: center;
     align-items: center;
-    padding: 1rem .5rem;
+    padding: 1rem .5rem .2rem .5rem;
     border-radius: 10px;
-    /* padding: 3px 10px; */
+    gap: 5px;
 
     @media(max-width: 768px) {
         width: 100%;
@@ -84,8 +84,8 @@
 }
 
 .activeLabel {
-    
-    font-size: 15px;
+
+    font-size: 14px;
     font-weight: 600;
     color: var(--red);
     margin-top: 5px;
@@ -112,7 +112,7 @@
 }
 
 .label {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--blue);
     margin-top: 5px;
