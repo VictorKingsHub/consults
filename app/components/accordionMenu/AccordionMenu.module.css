@@ -74,7 +74,7 @@
     text-transform: uppercase;
 
     @media(max-width: 768px) {
-        font-size: 14px;
+        font-size: 12px;
         padding: 3px 4px;
     }
 }
@@ -97,13 +97,10 @@
 
 @media(max-width: 768px) {
     .active {
-        font-size: 14px;
+        font-size: 12px;
         padding: 3px 4px;
     }
-
 }
-
-
 
 .answer {
     height: 30px;
@@ -215,7 +212,7 @@
 
     @media(max-width: 768px) {
         font-size: 12px;
-        border: 1px;
+        border: 1px solid var(--blue);
 }
 }
 
