@@ -31,10 +31,10 @@ export const MINI_MENU = {
 }
 
 export const REVIEW = [
-    { img: "/boy_study.jpg", id: 1, button: "Learn More", link: "/travel", name: "Chidimma", professionn: "Data analyst", Comment: "To provide access to the world's informationTo provide access to the world's To provide access to the world's informationTo provide access to the world's informationTo provide access to the world's information" },
-    { img: "/boy_study.jpg", id: 2, button: "Learn More",link: "/travel", name: "Ekulie", professionn: "Digital Marketer", Comment: "To provide access To provide access to the world's informationTo provide access to the world's to the world's informationTo provide access to the world's informationTo provide access to the world's information" },
-    { img: "/boy_study.jpg", id: 3, button: "Learn More", link: "/travel", name: "Victoria", professionn: "Developer", Comment: "To provide access To provide access to the world's informationTo provide access to the world's to the world's informationTo provide access to the world's informationTo provide access to the world's information" },
-    { img: "/boy_study.jpg", id: 4, button: "Learn More", link: "/travel", name: "Henry", professionn: "Analyst", Comment: "To provide access To provide access to the world's informationTo provide access to the world's to the world's informationTo provide access to the world's informationTo provide access to the world's information" }
+    { img: "/boy_study.jpg", id: 1, button: "Learn More", link: "/travel", name: "Chidimma", professionn: "Data analyst", Comment: "To provide access to the worlds informationTo provide access to the worlds To provide access to the world informationTo provide access to the world informationTo provide access to the world information" },
+    { img: "/boy_study.jpg", id: 2, button: "Learn More",link: "/travel", name: "Ekulie", professionn: "Digital Marketer", Comment: "To provide access To provide access to the worlds informationTo provide access to the world to the world informationTo provide access to the world informationTo provide access to the world information" },
+    { img: "/boy_study.jpg", id: 3, button: "Learn More", link: "/travel", name: "Victoria", professionn: "Developer", Comment: "To provide access To provide access to the worlds informationTo provide access to the world to the world informationTo provide access to the world informationTo provide access to the world information" },
+    { img: "/boy_study.jpg", id: 4, button: "Learn More", link: "/travel", name: "Henry", professionn: "Analyst", Comment: "To provide access To provide access to the worlds informationTo provide access to the worlds to the world informationTo provide access to the world informationTo provide access to the world information" }
 ]
 
 export const EDUCATIONSERVICES = [
@@ -69,8 +69,8 @@ export const EDUCATION_WHYCHOOSEUS = [
 // 
 
 export const ABOUTUS = [
-    { title: "To provide access to the world's information", id: 1 },
-    { title: "To provide access to the world's information", id: 2 }
+    { title: "To provide access to the world information", id: 1 },
+    { title: "To provide access to the world information", id: 2 }
 ]
 
 export const FOOTER_CONTENT = {
@@ -101,13 +101,13 @@ export const FOOTER_CONTENT = {
 }
 
 // export const TRAVEL = [
-//     { title: "To provide access to the world's information", id: 1 },
-//     { title: "To provide access to the world's information", id: 2 }
+//     { title: "To provide access to the world information", id: 1 },
+//     { title: "To provide access to the world information", id: 2 }
 // ]
 
 export const EDUCATION = [
-    { title: "To provide access to the world's information", id: 1 },
-    { title: "To provide access to the world's information", id: 2 }
+    { title: "To provide access to the world information", id: 1 },
+    { title: "To provide access to the world information", id: 2 }
 ]
 
 export const ACCORDION = [

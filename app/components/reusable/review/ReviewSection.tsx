@@ -2,7 +2,6 @@ import { REVIEW } from '@/app/constants'
 import Image from 'next/image'
 import React from 'react'
 import styles from "./reviewSection.module.css"
-import { ServicesHead } from '@/app/components/reusable/servicesHead/ServicesHead'
 
 const Review = () => {
   return (
@@ -16,7 +15,7 @@ const Review = () => {
             <div className={styles.client} key={item.id} >
               <div className={styles.fz} >
                 <div>
-                  <Image src={item.img} alt={item.name} width={50} height={50} className={styles.img} />
+                  <Image src={item.img} alt={item.name } width={50} height={50} className={styles.img} />
                 </div>
                 <div className={styles.details}>
                   <span className={styles.name}> {item.name} </span>
