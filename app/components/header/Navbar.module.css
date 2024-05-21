@@ -69,7 +69,6 @@
 }
 
 .smallMenu {
-    display: none;
     position: sticky;
     right: 0;
 
@@ -83,8 +82,32 @@
     flex-direction: column;
     justify-content: left;
     align-items: center;
+    display: none;
+
+    @media(max-width: 768px) {
+    }
+}
+/* .handburger{
+    display: none;
+
+    @media(max-width: 768px) {
+    display: block;
+    }
+} */
+
+.hide{
+    /* display: none; */
+    width: -30;
+
+    @media(max-width: 768px) {
+        display: block;
+    }
 }
 
+.show{
+    /* display: block; */
+    width: 50%;
+}
 .smallItems {
     cursor: pointer;
     color: red;

@@ -1,11 +1,19 @@
+"use client"
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { NAV_LINKS } from '@/app/constants'
 import { ButtonBackground } from '../reusable/button/Button'
 import styles from "./Navbar.module.css"
+import { RxHamburgerMenu } from 'react-icons/rx'
 
 const Navbar = () => {
+
+  const [mobile, setMobile] = useState(false)
+
+  const handleMobile = ()=>{
+    setMobile(!mobile)
+  }
 
   return (
     <nav className={styles.container}>
@@ -20,8 +28,8 @@ const Navbar = () => {
           <ul>
             {NAV_LINKS.map((menuitem) => {
               return (
-                <Link   className={styles.largeMenuItem}
-                href={menuitem.href} key={menuitem.id}> {menuitem.label} </Link>
+                <Link className={styles.largeMenuItem}
+                  href={menuitem.href} key={menuitem.id}> {menuitem.label} </Link>
               )
             })}
 
@@ -34,7 +42,10 @@ const Navbar = () => {
       </div>
 
       <div className={styles.smallMenu}>
-        <ul className={styles.smallUl}>
+        <div className={styles.handburger} onClick={handleMobile}>
+          <RxHamburgerMenu />
+        </div>
+        <ul className={`${mobile ? styles.show : styles.hide}`}>
           {NAV_LINKS.map((menuitem) => {
             return (
               <Link href={menuitem.href} key={menuitem.id} className={styles.smallItems}> {menuitem.label} </Link>
