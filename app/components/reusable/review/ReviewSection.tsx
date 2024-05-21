@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <div className={styles.container}>
       <div className={styles.h1}>
-        <h1>Clients' Review</h1>
+        <h1>Clients Review</h1>
       </div>
       <div className={styles.client_comment}>
         {REVIEW.map((item) => {

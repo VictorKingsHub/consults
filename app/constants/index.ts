@@ -34,7 +34,7 @@ export const REVIEW = [
     { img: "/boy_study.jpg", id: 1, button: "Learn More", link: "/travel", name: "Chidimma", profession: "Data analyst", Comment: "To provide access to the worlds informationTo provide access to the worlds To provide access to the world informationTo provide access to the world informationTo provide access to the world information" },
     { img: "/boy_study.jpg", id: 2, button: "Learn More",link: "/travel", name: "Ekulie", profession: "Digital Marketer", Comment: "To provide access To provide access to the worlds informationTo provide access to the world to the world informationTo provide access to the world informationTo provide access to the world information" },
     { img: "/boy_study.jpg", id: 3, button: "Learn More", link: "/travel", name: "Victoria", profession: "Developer", Comment: "To provide access To provide access to the worlds informationTo provide access to the world to the world informationTo provide access to the world informationTo provide access to the world information" },
-    { img: "/boy_study.jpg", id: 4, button: "Learn More", link: "/travel", name: "Henry", profession: "Analyst", Comment: "To provide access To provide access to the worlds informationTo provide access to the worlds to the world informationTo provide access to the world informationTo provide access to the world information" }
+    { img: "/boy_study.jpg", id: 4, button: "Learn More", link: "/travel", name: "Henry", profession: "Analyst", Comment: "To provide access To provide access to the worlds informationTo provide access to the worlds to the world informationTo provide access to the world informationTo provide access to the world information" },
 ]
 
 export const EDUCATIONSERVICES = [

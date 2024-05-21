@@ -35,11 +35,7 @@ const IeltsTakes = ({ subTitle, title, desc, btnBackLink, btnBackText, btnLink, 
       </div>
       <div className={styles.image}>
 
-      <iframe
-      src="/https://www.youtube.com/watch?v=gfU1iZnjRZM"
-      frameborder="0"
-      allowfullscreen
-    />
+     {/* Image or video Here */}
 
       </div>
     </div>
