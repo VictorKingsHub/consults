@@ -13,7 +13,7 @@ export default function Home() {
 
       <WelcomeHero />
 
-      <IconSection />
+      {/* <IconSection /> */}
 
       <CentralText
         title={"Get the most satisfying services"}
