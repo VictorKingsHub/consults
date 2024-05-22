@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 40vw;
+    width: 40%;
     color: var(--white);
 
     @media(max-width: 768px){
@@ -57,7 +57,7 @@
     gap: 10px;
 
     @media(max-width: 768px){
-        width: 100%;
+        width: 98% !important;
         padding: .2rem;
     }
 }
