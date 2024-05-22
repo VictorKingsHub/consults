@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 3rem 5rem;
+    padding: 1rem 5rem;
     gap: 20px;
     background-color: var(--white);
     max-width: 100%;
