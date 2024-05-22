@@ -26,7 +26,6 @@ const BannerSection = () => {
           <div className={styles.downIcon}><FaAngleDoubleRight /></div>
         </div>
       </div>
-
     </div>
   )
 }
