@@ -35,7 +35,7 @@
     @media(max-width: 768px) {
         width: 90%;
         padding: .5rem;
-        height: 30vh;
+        min-height: 30vh;
         margin: 0 auto;
     }
 }
