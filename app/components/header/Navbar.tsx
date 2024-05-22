@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const [mobile, setMobile] = useState(false)
 
-  const handleMobile = ()=>{
+  const handleMobile = () => {
     setMobile(!mobile)
   }
 
@@ -32,7 +32,6 @@ const Navbar = () => {
                   href={menuitem.href} key={menuitem.id}> {menuitem.label} </Link>
               )
             })}
-
           </ul>
         </div>
 
@@ -45,7 +44,7 @@ const Navbar = () => {
         <div className={styles.handburger} onClick={handleMobile}>
           <RxHamburgerMenu />
         </div>
-        <ul className={`${mobile ? styles.show : styles.hide}`}>
+        <ul className={styles.MobileNav}>
           {NAV_LINKS.map((menuitem) => {
             return (
               <Link href={menuitem.href} key={menuitem.id} className={styles.smallItems}> {menuitem.label} </Link>
