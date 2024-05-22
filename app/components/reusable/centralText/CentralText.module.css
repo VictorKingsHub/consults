@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     height: fit-content;
-    padding: 6rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,11 +41,11 @@
 }
 
 .title {
-    font-size: 35px;
-    font-weight: 400;
-    color: var(--dark);
-    border-bottom: 1px solid var(--dark);
-    Font-family: var(--fontScratum);
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--blue);
+    border-bottom: 2px solid var(--orange);
+    Font-family: Exo, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -63,10 +63,11 @@
 }
 
 .description {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    color: var(--dark);
-    line-height: 23px;
+    /* color: var(--dark); */
+    color: var(--lightDark);
+    line-height: 25px;
     Font-family: var(--fontScratum);
 
     @media (max-width: 768px) {
