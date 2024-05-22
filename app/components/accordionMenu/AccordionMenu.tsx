@@ -14,7 +14,7 @@ function AccordionMenu() {
     return (
         <div className={styles.container}>
             <div className={styles.edu}>
-                <h1>Our Educational Services</h1>
+                {/* <h1>Our Educational Services</h1> */}
             </div>
             <div className={styles.both}>
                 <div className={styles.wrapper}>

@@ -17,41 +17,41 @@ const IconSection = () => {
       <div className={styles.wrapper}>
         <div className={styles.both}>
           <Link href="/travels/visaprocessing" className={styles.link}>
-            {/* <CiCompass1 className={styles.serviceIcon} /> */}
-            <div className={styles.iconText}> VISA PROCESSING </div>
+            <CiCompass1 className={styles.serviceIcon} />
+            <div className={styles.iconText}> Visa Processing </div>
           </Link>
         </div>
         <div className={styles.both}>
           <Link href="/travels/ielts" className={styles.link} >
-            {/* <PiGraduationCapThin className={styles.serviceIcon} /> */}
-            <div className={styles.iconText}> IELTS EXAMS </div>
+            <PiGraduationCapThin className={styles.serviceIcon} />
+            <div className={styles.iconText}> IELTS Exams </div>
           </Link>
         </div>
 
         <div className={styles.both}>
           <Link href="/travels/insurance" className={styles.link}>
-            {/* <PiBookOpenTextThin className={styles.serviceIcon} /> */}
-            <div className={styles.iconText}> TRAVEL INSURANCE </div>
+            <PiBookOpenTextThin className={styles.serviceIcon} />
+            <div className={styles.iconText}> Travel Insurance </div>
           </Link>
         </div>
 
         <div className={styles.both}>
           <Link href="/travels" className={styles.link} >
-            {/* <PiHeartLight className={styles.serviceIcon} /> */}
-            <div className={styles.iconText}> RISK MANAGEMENT </div>
+            <PiHeartLight className={styles.serviceIcon} />
+            <div className={styles.iconText}> Risk Management </div>
           </Link>
         </div>
 
         <div className={styles.both}>
           <Link href="/travels" className={styles.link} >
-            {/* <PiChalkboardTeacherThin className={styles.serviceIcon} /> */}
-            <div className={styles.iconText}> RISK ACCESSMENT </div>
+            <PiChalkboardTeacherThin className={styles.serviceIcon} />
+            <div className={styles.iconText}> Risk Accessment </div>
           </Link>
         </div>
         <div className={styles.both}>
           <Link href="/travels" className={styles.link}>
-            {/* <PiAirplaneTiltThin className={styles.serviceIcon} /> */}
-            <div className={styles.iconText} > TRAVEL AGENCY </div>
+            <PiAirplaneTiltThin className={styles.serviceIcon} />
+            <div className={styles.iconText} > Travel Agency </div>
           </Link>
         </div>
       </div>

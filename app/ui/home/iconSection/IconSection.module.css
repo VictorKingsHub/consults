@@ -1,6 +1,5 @@
 
 .container{
-  max-width: 100%;
   box-sizing: border-box;
   margin: 0;
   display: flex;
@@ -12,7 +11,7 @@
   background-color: var(--white);
   
   @media(max-width: 768px) {
-    padding: .2rem;
+    padding: .1rem;
   }
 }
 
@@ -30,68 +29,51 @@
     gap: 1px;
     flex-wrap: wrap;
     gap: 7px;
-
-  
   }
 }
 
 .iconText {
   text-align: center;
   color: var(--white);
-  font-size: 22px;
-  color: var(--blue);
+  font-size: 16px;
+  color: var(--dark);
   font-weight: 600;
   text-transform: capitalize;
   
   @media(max-width: 768px) {
-    font-size: 11px;
-  }
-
-  @media(min-width: 768px) {
-    font-size: 0.75rem;
+    font-size: 13px;
   }
 }
 .iconText:hover{
-  color: var(--white);
   font-weight: 500;
-}
-
-.serviceIcon {
-  width: 40px;
-
-  @media(max-width: 768px) {
-    width: 22px;
-    display: none;
-  }
-
-  @media(min-width: 768px) {
-    font-size: 0.75rem;
-  }
 }
 
 .link{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
+
 .serviceIcon:hover, .link:hover{
-  /* color: var(--yellow); */
   font-weight: 500px;
   justify-content: center;
   align-items: center;
- 
 }
 
 .both {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: var(--light);
-  padding: .4rem .5rem;
+  /* padding: .4rem .5rem; */
   border-radius: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 155px;
+  height: 155px;
   
   @media(max-width: 768px) {
     font-size: 1.5rem;
@@ -103,22 +85,19 @@
 } 
 
 .both:hover{
-  background-color: var(--blue);
+  background-color: var(--light);
   color: var(--white);
 }
 
 .serviceIcon {
-  font-size: 1.7rem;
-  color: var(--blue);
+  color: var(--dark);
   text-align: center;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 35px;
 
   @media(max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 50px;
   }
-}
-.serviceIcon:hover{
-  color: var(--white);
 }

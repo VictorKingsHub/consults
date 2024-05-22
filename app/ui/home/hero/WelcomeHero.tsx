@@ -17,9 +17,9 @@ const WelcomeHero = () => {
                     <ButtonBackground text={'Go to Education'} link={'/education'} />
                     <Button text={'Go to Travels'} link={'/travels'} />
                 </div>
-                <div className={styles.img}>
+                {/* <div className={styles.img}>
                     <Image src={photo4} alt='plane' width={250} height={250} className={styles.imgplane} />
-                </div>
+                </div> */}
             </div>
 
             <div className={styles.image}>

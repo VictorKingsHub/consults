@@ -4,7 +4,7 @@
     border-radius: 5px;
     padding: 4px 8px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: .7px;
     border: 2px solid var(--red);
 }
@@ -38,7 +38,7 @@
     border-radius: 5px;
     padding: 4px 8px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .button:hover {
