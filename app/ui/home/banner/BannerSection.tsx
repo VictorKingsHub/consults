@@ -5,16 +5,12 @@ import { FaAngleDoubleRight } from 'react-icons/fa'
 
 const BannerSection = () => {
 
-  const [animate, setAnimate] = useState(true)
-  const handleAnimation = () => {
-    setAnimate(!animate)
-  }
 
   return (
     <div className={styles.container}>
-      <div className={styles.first} onMouseOver={handleAnimation} onMouseLeave={handleAnimation}>
+      <div className={styles.first} >
         <div className={styles.firstTitle}>Travel And Tour</div>
-        <div className={`${animate ? styles.showfirstIcon : styles.firstIcon}`} ><FaAngleDoubleRight /></div>
+        <div className={styles.firstIcon} ><FaAngleDoubleRight /></div>
       </div>
       <div className={styles.second}>
         <div className={styles.up}>
