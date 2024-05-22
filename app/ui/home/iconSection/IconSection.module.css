@@ -61,6 +61,7 @@
   font-weight: 500px;
   justify-content: center;
   align-items: center;
+
 }
 
 .both {
@@ -92,6 +93,20 @@
   }
 }
 
+@keyframes grow {
+  0% {
+    font-size: 35px;
+  }
+
+  50% {
+    font-size: 40px;
+  }
+
+  100% {
+    font-size: 35px;
+  }
+}
+
 .serviceIcon {
   color: var(--dark);
   text-align: center;
@@ -103,4 +118,8 @@
   @media(max-width: 768px) {
     font-size: 50px;
   }
+}
+
+.serviceIcon:hover {
+  animation: grow 4s infinite;
 }

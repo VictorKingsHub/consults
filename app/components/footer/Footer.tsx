@@ -18,7 +18,7 @@ export default function Footer() {
       <div className={styles.one}>
         <div className={styles.video}>
          
-      <Image src={"/footer.PNG"} width={300} height={200} alt="services"/>
+      <Image src={"/footer.JPG"} width={300} height={200} alt="services"/>
         </div>
 
         <div className={styles.office}>

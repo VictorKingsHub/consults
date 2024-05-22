@@ -10,6 +10,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 2rem 4rem;
+    background-color: var(--lightestBlue);
 
     @media(max-width: 768px) {
         height: fit-content;
@@ -70,7 +71,7 @@
     cursor: pointer;
     text-align: center;
     color: var(--dark);
-    background-color: var(--lightRed);
+    background-color: var(--white);
     text-transform: capitalize;
 
     @media(max-width: 768px) {
@@ -86,11 +87,11 @@
 .active {
     padding: .3rem;
     font-weight: 500;
-    color: var(--blue);
+    color: var(--white);
     border-radius: 2px;
     cursor: pointer;
     text-align: center;
-    background-color: var(--light);
+    background-color: var(--blue);
     font-size: 17px;
     text-transform: capitalize;
 }
@@ -126,7 +127,7 @@
 .title {
     font-size: 25px;
     font-weight: 500;
-    color: var(--dark);
+    color: var(--blue);
 
     @media(max-width: 768px) {
             font-size: 18px;
