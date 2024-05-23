@@ -29,7 +29,7 @@ const Testimonial = ({ topHeader, topDesc, desc1, desc2, desc3, name1, prof1, im
         </div>
       </div>
       <div className={styles.cards}>
-        <div className={styles.card}>
+        <div className={styles.testimony}>
           <div className={styles.about}>
             <div className={styles.img}>
               <Image src={img1} width={50} height={50} alt='first testimonial' className={styles.photo} />
@@ -44,7 +44,7 @@ const Testimonial = ({ topHeader, topDesc, desc1, desc2, desc3, name1, prof1, im
           </div>
         </div>
 
-        <div className={styles.card}>
+        <div className={styles.testimony}>
           <div className={styles.about}>
             <div className={styles.img}>
               <Image src={img2} width={50} height={50} alt='first testimonial' className={styles.photo} />
@@ -59,7 +59,7 @@ const Testimonial = ({ topHeader, topDesc, desc1, desc2, desc3, name1, prof1, im
           </div>
         </div>
 
-        <div className={styles.card}>
+        <div className={styles.testimony}>
           <div className={styles.about}>
             <div className={styles.img}>
               <Image src={img3} width={50} height={50} alt='first testimonial' className={styles.photo} />
