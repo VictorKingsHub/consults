@@ -21,23 +21,23 @@ const TravelsPage = () => {
     <div className='w-full' >
       <EmblaCarouselTravel />
 
-      {/* <ServiceOptions
+      <ServiceOptions
         label1='TRAVEL'
         label2='WORK'
         label3='STUDY'
         desc1='We offer a wide range of travel service and packages tailored to different preference and budgets'
         desc2='Riskout Travels offers services of finding work opportunities while traveling'
         desc3='We give professional guides and assistance through out your apllication and study experience'
-      /> */}
+      />
 
-      {/* <CentralText
+       <CentralText
         title={"Get the most satisfying services"}
         description={"Let Riskout Travels worry about all hassles related to your travel arrangement to any location of your choice for work or Study while you go about your normal duties and still get the best value for your money"}
         text={"Stay Conected"}
-      /> */}
+      /> 
 
-      {/* <TravelServicesPage /> */}
-{/* 
+       <TravelServicesPage />
+
       <WhyChooseUs
         img={"/man.jpg"}
         icon1={<FaUserGraduate />}
@@ -59,9 +59,9 @@ const TravelsPage = () => {
         description6={'The management of different layers of schools is one of our core going goals'}
         us={"Choose us"}
         why={"why"}
-      /> */}
+      />
 
-      {/* <Testimonial
+       <Testimonial
         topHeader='Travellers Testimonials'
         topDesc='Get the most satisfying servicesGet the most satisfying servicesGet the most satisfying services Get the most satisfying services'
         name1='John Doe1'
@@ -76,9 +76,9 @@ const TravelsPage = () => {
         img1={"/man.jpg"}
         img2={"/relaxation.png"}
         img3={"/man.jpg"}
-      /> */}
+      /> 
 
-      {/* <GetCertified
+       <GetCertified
         label1='Get Certified in'
         labelSP='IELTS'
         label2='SPeak, Listen, Understand and be understood'
@@ -94,7 +94,7 @@ const TravelsPage = () => {
         l4='Work'
         l5='Get certified'
         l6='Green Card'
-      /> */}
+      /> 
 
       {/* <CountryDropdown  /> */}
       {/* <TravelHeroSection /> */}
