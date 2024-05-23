@@ -25,6 +25,7 @@
         width: 95%;
     }
 }
+
 .toplabel{
     font-size: 25px;
     font-weight: 600;
@@ -99,6 +100,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border: 2px solid yellow;
 
     @media(max-width: 768px){
         flex-direction: column;

@@ -2,44 +2,52 @@
     width: 100vw;
     box-sizing: border-box;
     margin: 0;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     background-color: var(--lightestBlue);
     opacity: .9;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
 
     @media(max-width: 768px) {
-        padding: .3re .5rem;
+        background-color: var(--footerDark);
+        opacity: .9;
+        flex-direction: column;
+        height: 60vh;
     }
 }
 
-.logo {
-    cursor: pointer;
+.Menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+}
+
+.right {
+    display: none;
 }
 
 .largeMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
-
-    @media(max-width: 768px) {
-        display: none;
-    }
-}
-
-.largeMenu ul {
     color: var(--dark);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    @media(max-width: 768px) {
+        display: none;
+        gap: .8rem;
+    }
 }
 
 .largeMenuItem {
@@ -47,53 +55,26 @@
     font-weight: 600;
     margin: 0 1rem;
     color: var(--dark);
+
+    @media(max-width: 768px) {
+        color: var(--white);
+        font-weight: 500;
+    }
 }
 
 .largeMenuItem:hover {
-    opacity: .8;
+    border-bottom: 2px solid var(--red);
+    height: 90%;
 }
 
-.active {
-    color: var(--red);
+.logo {
     cursor: pointer;
-    font-weight: 600;
-    margin: 0 1rem;
-}
-
-.appoint {
-    display: flex;
 
     @media(max-width: 768px) {
         display: none;
     }
 }
 
-.smallUl {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
+.burger{
     display: none;
-
-    @media(max-width: 768px) {}
-}
-
-.smallItems {
-    cursor: pointer;
-    color: red;
-}
-.smallMenu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.MobileNav{
-    background-color: yellowgreen;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-    gap: 5px;
-
 }
