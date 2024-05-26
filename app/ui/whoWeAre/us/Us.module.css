@@ -24,11 +24,13 @@
     gap: 30px;
     padding: 4rem 6rem;
     background-color: var(--light);
+    width: 100%;
 
     @media(max-width: 768px) {
         flex-direction: column;
         height: fit-content;
         padding: 1rem;
+        width: 100%;
     }
 }
 
@@ -49,12 +51,6 @@
         padding: 1rem;
     }
 }
-/* .wrapper2 p{
-    @media(max-width: 768px) {
-        font-size: 30px;
-        color: rebeccapurple;
-    }
-} */
 
 .texts,
 .image {
