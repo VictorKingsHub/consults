@@ -126,14 +126,13 @@
     color: var(--white);
     opacity: .8;
     margin-top: 130px;
-
     @media(max-width: 768px) {
         font-size: 18px;
     }
 }
 
 .down {
-    background-image: linear-gradient(to left, rgba(117, 19, 65, 0.288), rgba(38, 38, 43, 0.918)), url('/relaxation.PNG');
+    background-image: linear-gradient(to left, rgba(117, 19, 65, 0.288), rgba(38, 38, 43, 0.918)), url('/relaxation.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

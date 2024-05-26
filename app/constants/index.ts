@@ -39,14 +39,14 @@ export const REVIEW = [
 
 export const EDUCATIONSERVICES = [
     { label: "SCHOLARSHIPS", link: "/travel", description: "Riskout Travels conducts comprehensive risk assessments to identify potential hazards and ", image: "/scholar.jpg", id: 1 },
-    { label: "CAMBRIDGE CURRICULUM", link: "/insurance", description: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeseen events" ,image: "/CambridgeEnglish.PNG", id: 2},
+    { label: "CAMBRIDGE CURRICULUM", link: "/insurance", description: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeseen events" ,image: "/CambridgeEnglish.png", id: 2},
     { label: "TRAINED TEACHERS ACADEMY", link: "/safety-guideance", description: "Riskout Travels provides travels with up-to-date safety guidelines and practical advice. They offer ", image: "/Screenshot_20240429-232525.png" },
 ]
 
 export const TRAVELSERVICES = [
-    { label: "VISA PROCESSING", link: "/travels/visaprocessing", description: "We gives you an indication of how long your Visa application may take to process", image: "/visa.PNG", id: 1 },
+    { label: "VISA PROCESSING", link: "/travels/visaprocessing", description: "We gives you an indication of how long your Visa application may take to process", image: "/visa.png", id: 1 },
     { label: "IELTS EXAMS", link: "/travels/ielts", description: "IELTS test assesses Listening, Reading, Writing, and Speaking ", image: "/ielts.png", id: 2},
-    { label: "JOB SECURING", link: "/travels/jobSecuring", description: "Get opportunities Abroad for scholarships and Jobs ", image: "/jobSecuring.PNG" },
+    { label: "JOB SECURING", link: "/travels/jobSecuring", description: "Get opportunities Abroad for scholarships and Jobs ", image: "/jobSecuring.png" },
 ]
 export const TRAVEL_WHYCHOOSEUS = [
     { label: "TRAVEL RISK ASSESSMENT", button: "Learn More", link: "/travel", description: "Riskout Travels conducts comprehensive risk assessments to identify potential hazards and threats associated with travel", image: "/ielts.png", id: 1 },
