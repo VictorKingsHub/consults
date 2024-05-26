@@ -10,22 +10,22 @@ import { RiTwitterXFill } from 'react-icons/ri'
 
 const data = [
     {
-        id: 1, number: "01", image: "/director.JPG", year: "2021 2033", name: "Mr. Iyiegbu Justice", position: "Lead Consultant Riskout Consults",
+        id: 1, number: "01", image: "/director.jpg", year: "2021 2033", name: "Mr. Iyiegbu Justice", position: "Lead Consultant Riskout Consults",
         socials: [
             { id: 1, facebookIcon: <FaFacebook />, facebookLink: "https://web.facebook.com/iyiegbu.justice?_rdc=1&_rdr", LinkedinIcon: <BsLinkedin />, linkdinLink: "LinkdinLink", twitterIcon: <RiTwitterXFill />, twiiterLink: "teitterLinkinghere", gmailIcon: <SiGmail />, gmailLink: "gmail Link Here", telegramIcon: <BsTelegram />, telegramLink: "telegram Link" }
         ]
     },
     {
-        id: 2, number: "02", image: "/jeja.PNG", year: "2021 2033", name: "Mrs. Efeomo Promise", position: "Jeja Edu Consults",
+        id: 2, number: "02", image: "/jeja.png", year: "2021 2033", name: "Mrs. Efeomo Promise", position: "Jeja Edu Consults",
         socials: [
             { id: 2, facebookIcon: <FaFacebook />, facebookLink: "https://web.facebook.com/iyiegbu.justice?_rdc=1&_rdr", LinkedinIcon: <BsLinkedin />, linkdinLink: "LinkdinLink", twitterIcon: <BsTwitterX />, twiiterLink: "teitterLinkinghere", gmailIcon: <SiGmail />, gmailLink: "gmail Link Here", telegramIcon: <BsTelegram />, telegramLink: "telegram Link" }
         ]
     },
-    { id: 3, number: "03", image: "/mma.PNG", year: "2021 2033", name: "Ms. Chidinma Idika", position: "Riskout Consults Admin", },
-    { id: 4, number: "04", image: "/banky.JPG", year: "2021 2033", name: "Mr. Blessed Banky", position: "Riskout Consults Educator", },
-    { id: 5, number: "05", image: "/resilient.JPG", year: "2021 2033", name: "Ms. Resilient Mentor", position: "Diction instructor/ Mental Health Advocate", },
-    { id: 6, number: "06", image: "/chioma.JPG", year: "2021 2033", name: "Mrs. Chioma Michael", position: "Riskout Educator", },
-    { id: 7, number: "07", image: "/henry.JPEG", year: "2021 2033", name: "Mr. Henry Chinonso", position: "Riskout IELTS Instructor/Media Manager", },
+    { id: 3, number: "03", image: "/mma.png", year: "2021 2033", name: "Ms. Chidinma Idika", position: "Riskout Consults Admin", },
+    { id: 4, number: "04", image: "/banky.jpg", year: "2021 2033", name: "Mr. Blessed Banky", position: "Riskout Consults Educator", },
+    { id: 5, number: "05", image: "/resilient.jpg", year: "2021 2033", name: "Ms. Resilient Mentor", position: "Diction instructor/ Mental Health Advocate", },
+    { id: 6, number: "06", image: "/chioma.jpg", year: "2021 2033", name: "Mrs. Chioma Michael", position: "Riskout Educator", },
+    { id: 7, number: "07", image: "/henry.jpeg", year: "2021 2033", name: "Mr. Henry Chinonso", position: "Riskout IELTS Instructor/Media Manager", },
 
 ]
 

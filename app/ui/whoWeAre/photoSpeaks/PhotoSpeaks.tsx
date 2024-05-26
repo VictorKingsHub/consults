@@ -6,14 +6,14 @@ import Image from 'next/image'
 
 
 const data = [
-    { id: 1, number: "01", image: "/seminar1.JPG", year: "2021 2033", title: "Educational Consulting" },
-    { id: 2, number: "02", image: "/seminar2.JPG", year: "2021-2022", title: "Trained Teachers" },
-    { id: 3, number: "03", image: "/seminar3.JPG", year: "2021-2022", title: "IELTS" },
-    { id: 4, number: "04", image: "/seminar4.JPG", year: "2021-2022", title: "Follow Up" },
-    { id: 5, number: "05", image: "/seminar6.JPG", year: "2021-2022", title: "Sponsorships" },
-    { id: 6, number: "06", image: "/seminar7.JPG", year: "2021-2022", title: "Teachers Staffing" },
-    { id: 7, number: "07", image: "/seminar8.JPG", year: "2021-2022", title: "Teachers Staffing" },
-    { id: 8, number: "08", image: "/seminar9.JPG", year: "2021-2022", title: "Teachers Staffing" },
+    { id: 1, number: "01", image: "/seminar1.jpg", year: "2021 2033", title: "Educational Consulting" },
+    { id: 2, number: "02", image: "/seminar2.jpg", year: "2021-2022", title: "Trained Teachers" },
+    { id: 3, number: "03", image: "/seminar3.jpg", year: "2021-2022", title: "IELTS" },
+    { id: 4, number: "04", image: "/seminar4.jpg", year: "2021-2022", title: "Follow Up" },
+    { id: 5, number: "05", image: "/seminar6.jpg", year: "2021-2022", title: "Sponsorships" },
+    { id: 6, number: "06", image: "/seminar7.jpg", year: "2021-2022", title: "Teachers Staffing" },
+    { id: 7, number: "07", image: "/seminar8.jpg", year: "2021-2022", title: "Teachers Staffing" },
+    { id: 8, number: "08", image: "/seminar9.jpg", year: "2021-2022", title: "Teachers Staffing" },
 
 ]
 
