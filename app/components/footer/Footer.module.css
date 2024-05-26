@@ -144,6 +144,7 @@
 
 .image {
     background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.082)), url("/footer.JPG");
+    
 
 
     @media(max-width: 768px) {

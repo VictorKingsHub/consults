@@ -10,14 +10,14 @@ import SocialMediaLinks from "../reusable/socialMediaIcons/SocialMediaLinks";
 import PhonesNumbers from "../reusable/phoneNumbers/Phones";
 import OfficeAddress from "../reusable/officeAddress/OfficeAddress";
 import Image from "next/image";
+import footerImage from "../../../public/footer.jpg"
 
 export default function Footer() {
   return (
     <div className={styles.container}>
-
       <div className={styles.one}>
         <div className={styles.image}>
-          {/* <Image src={"/footer.JPG"} width={300} height={200} alt="services" /> */}
+          <Image src={footerImage} width={300} height={200} alt="services" />
         </div>
 
         <div className={styles.office}>
