@@ -9,6 +9,7 @@ const AboutPage = () => {
   return (
     <div>
       <WhoWeAreHero />
+      
       <UsSection />
 
       <PhotoSpeaksSection />

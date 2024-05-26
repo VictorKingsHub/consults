@@ -64,18 +64,18 @@ const TravelsPage = () => {
        <Testimonial
         topHeader='Travellers Testimonials'
         topDesc='Get the most satisfying servicesGet the most satisfying servicesGet the most satisfying services Get the most satisfying services'
-        name1='John Doe1'
-        name2='John Doe2'
-        name3='John Doe3'
+        name1='Johnson Liberty'
+        name2='Fredrick Joy'
+        name3='Lawal Stepheny'
         prof1='Software Developer'
         prof2=' Data Analyst '
         prof3=' Virtual Assistant'
         desc1='Get the most satisfying servicesGet the most satisfying servicesGet the most satisfying services Get the most satisfying services'
         desc2='Get the most satisfying servicesGet the most satisfying servicesGet the most satisfying services Get the most satisfying services'
         desc3='Get the most satisfying servicesGet the most satisfying servicesGet the most satisfying services Get the most satisfying services'
-        img1={"/man.jpg"}
-        img2={"/relaxation.png"}
-        img3={"/man.jpg"}
+        img1={"/review3.jpg"}
+        img2={"/review1.jpg"}
+        img3={"/review4.jpg"}
       /> 
 
        <GetCertified

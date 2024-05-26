@@ -1,13 +1,18 @@
 .container{
     background-color: var(--light);
-    padding: 4rem 6rem;
+    padding: 4rem 6rem 0 6rem;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 35vh;
+
+    @media(max-width: 768px) {
+       padding: 2rem 1rem 1rem 1rem;
+}
 }
 .title{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     color: var(--dark);
 }

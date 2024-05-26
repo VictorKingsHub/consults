@@ -52,7 +52,7 @@ export default function PhotoSpeaksSection() {
                             <div className={styles.allAnswer} key={ans.id}>
                                 {selected === ans.id && (
                                     <div className={styles.com}>
-                                        <div className={styles.answerImg}>
+                                        <div className={styles.answeImgr}>
                                             <Image className={styles.img} src={ans.image} alt={ans.title} width={400} height={200} />
                                         </div>
                                         <div className={styles.answerText}>

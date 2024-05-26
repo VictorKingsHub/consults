@@ -4,17 +4,22 @@
     margin: 0;
     padding: 1rem 2rem;
     background-color: var(--lightestBlue);
-    opacity: .9;
+    /* opacity: .9; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    /* right: 0; */
+    /* left: 0; */
 
     @media(max-width: 768px) {
         background-color: var(--footerDark);
         opacity: .9;
         flex-direction: column;
-        height: 60vh;
+        height: 20vh;
     }
 }
 
