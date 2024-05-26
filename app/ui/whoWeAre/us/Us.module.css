@@ -43,8 +43,8 @@
     height: 70vh;
     background-color: var(--white);
     padding: 4rem 6rem;
+    width: 100%;
 
-    
     @media(max-width: 768px) {
         flex-direction: column;
         height: fit-content;
