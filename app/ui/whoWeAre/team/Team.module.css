@@ -94,6 +94,7 @@
     cursor: pointer;
     text-align: center;
     padding: .1rem .5rem;
+    background-color: var(--white);
     box-shadow: 2px 2px 5px rgb(175, 174, 174);
     border-radius: 5px;
 
