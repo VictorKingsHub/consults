@@ -1,10 +1,8 @@
 "use client"
-import React, { useEffect, useState } from 'react'
 import styles from "./BannerSection.module.css"
 import { FaAngleDoubleRight } from 'react-icons/fa'
 
 const BannerSection = () => {
-
 
   return (
     <div className={styles.container}>
