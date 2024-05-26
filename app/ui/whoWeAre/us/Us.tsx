@@ -22,17 +22,17 @@ interface LeftSectionProps {
 export default function UsSection() {
     return (
         <div className={styles.container}>
-            <RightSection vissionTitle={'Our Vision'} coreValueTitle={''} vissionImage={"/team1.JPG"} coreValueImage={undefined} vissionDescription={'We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'} vissionImageAlt={'Vission Image'} />
+            <RightSection vissionTitle={'Our Vision'} coreValueTitle={''} vissionImage={"/team1.jpg"} coreValueImage={undefined} vissionDescription={'We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'} vissionImageAlt={'Vission Image'} />
 
 
-            <LeftSection missionTitle={'Our Mission'} missionDescription={'We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'} missionImage={"/team1.JPG"} missionImageAlt={'mission Image'} />
+            <LeftSection missionTitle={'Our Mission'} missionDescription={'We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'} missionImage={"/team1.jpg"} missionImageAlt={'mission Image'} />
 
             <RightSection
                 coreValueTitle={'Our Core values'}
-                coreValueImage={"/team2.JPG"}
+                coreValueImage={"/team2.jpg"}
                 vissionDescription={'We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'}
                 coreValueDescription='We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'
-                coreValueImageAlt='"/team2.JPG"'
+                coreValueImageAlt='"/team2.jpg"'
             />
         </div>
     )
