@@ -6,6 +6,7 @@ import { CentralText } from "./components/reusable/centralText/CentralText";
 import AccordionMenu from "./components/accordionMenu/AccordionMenu";
 import Last from "./ui/home/last/Last";
 import BannerSection from "./ui/home/banner/BannerSection";
+import BookingSection from "./ui/home/booking/page";
 
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <WelcomeHero />
 
       <IconSection />
+
+      <BookingSection />
 
       <CentralText
         title={"Get the most satisfying services"}

@@ -46,7 +46,10 @@ const Navbar = () => {
         </div>
 
         <div className={styles.appoint}>
-          <ButtonBackground text={'Appointment'} link={'/contact'} />
+          {/* <ButtonBackground text={'Appointment'} link={'/contact'} /> */}
+
+
+
         </div>
 
       </div>
