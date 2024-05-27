@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    padding: 0.5rem 1rem;
 
     @media(max-width: 768px) {
         width: 80%;
@@ -32,7 +33,7 @@
 
 .fill {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--dark);
     padding-bottom: 5px;
 
@@ -83,4 +84,55 @@
     @media(max-width: 768px) {
         opacity: .8;
     }
+}
+.links{
+    font-weight: 600;
+    font-size: 22px;
+
+    @media(max-width: 768px) {
+        font-size: 18px;
+    }
+}
+.intro p{
+    font-weight: 500;
+    font-size: 16px;
+
+    @media(max-width: 768px) {
+        font-size: 15px;
+    }
+}
+.numbers{
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: var(--dark);
+        font-size: 16px;
+        line-height: 20px;
+        font-style: normal;
+        text-align: left;
+        gap: 5px;
+    
+        @media(max-width: 640px) {
+            text-align: left;
+        }
+    }
+    .link{
+        color: var(--dark);
+        font-size: 14px;
+    }
+    .link:hover{
+        color: var(--orange);
+    }
+}
+
+.btn{
+    background-color: teal;
+    color: var(--white);
+    padding: .3rem 1rem;
+    border-radius: 5%;
 }

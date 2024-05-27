@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from "./ContactForm.module.css"
-import PhonesNumbers from '@/app/components/reusable/phoneNumbers/Phones'
 import SocialMediaLinks from '@/app/components/reusable/socialMediaIcons/SocialMediaLinks'
+import Link from 'next/link'
+import { FaPhone } from 'react-icons/fa6'
 
 const ContactForm = () => {
+
     return (
         <div className={styles.container}>
             <div className={styles.address}>
@@ -12,7 +14,19 @@ const ContactForm = () => {
                     <p>Your way to making your best travel and educational decision</p>
                 </div>
                 <div className={styles.connets}>
-                    <PhonesNumbers />
+
+                    <div className={`mt-3 ${styles.numbers}`}>
+                        <div>
+                            <Link target='-blank' href="tel:+2348028600330" className={styles.link}> +234(0)802 860 0330 </Link>
+                        </div>
+                        <div>
+                            <Link target='-blank' href="tel:+2348037855426" className={styles.link}> +234(0)803 785 5426 </Link>
+                        </div>
+                        <div>
+                            <Link target='-blank' href="tel:+2347025530041" className={styles.link}> +234(0)702 553 0041</Link>
+                        </div>
+                    </div>
+
                     <SocialMediaLinks />
                 </div>
             </div>
@@ -36,6 +50,9 @@ const ContactForm = () => {
                         <label > Message</label>
                         <textarea cols={50} rows={5} placeholder='Enter Your Message Here'>
                         </textarea>
+                    </div>
+                    <div className={styles.submit}>
+                        <button type="submit" className={styles.btn}>Submit</button>
                     </div>
                 </form>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ScholarshipsPage = () => {
   return (
-    <div>
+    <div className='py-8 my-8'>
       Scholarships
     </div>
   )

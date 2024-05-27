@@ -1,5 +1,4 @@
 "use client"
-
 import { FOOTER_CONTENT } from "@/app/constants"
 import styles from "./Footer.module.css"
 import Link from "next/link"
@@ -11,8 +10,10 @@ import PhonesNumbers from "../reusable/phoneNumbers/Phones";
 import OfficeAddress from "../reusable/officeAddress/OfficeAddress";
 import Image from "next/image";
 import footerImage from "../../../public/footer.jpg"
+import { useEffect, useState } from "react";
 
 export default function Footer() {
+
   return (
     <div className={styles.container}>
       <div className={styles.one}>
@@ -54,7 +55,7 @@ export default function Footer() {
           </Marquee>
         </div>
         <div className={styles.three}>
-          <div className={styles.right}>©2024. Riskoutconsults.com. All Rights Reserved.</div>
+          <div className={styles.right}> Copyright © 2024 Riskoutconsults.com. All Rights Reserved.</div>
         </div>
       </div>
     </div>
