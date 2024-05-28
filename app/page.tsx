@@ -17,7 +17,7 @@ export default function Home() {
 
       <IconSection />
 
-      <BookingSection />
+      {/* <BookingSection /> */}
 
       <CentralText
         title={"Get the most satisfying services"}

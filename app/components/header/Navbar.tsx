@@ -7,6 +7,7 @@ import { ButtonBackground } from '../reusable/button/Button'
 import styles from "./Navbar.module.css"
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { MdOutlineClose } from 'react-icons/md'
+import BookingSection from '@/app/ui/home/booking/page'
 
 const Navbar = () => {
 
@@ -46,10 +47,7 @@ const Navbar = () => {
         </div>
 
         <div className={styles.appoint}>
-          {/* <ButtonBackground text={'Appointment'} link={'/contact'} /> */}
-
-
-
+          <ButtonBackground text={'Appointment'} link={'/contact'} />
         </div>
 
       </div>
