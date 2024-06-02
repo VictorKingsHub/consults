@@ -8,8 +8,10 @@ import styles from "./Navbar.module.css"
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { MdOutlineClose } from 'react-icons/md'
 import BookingSection from '@/app/ui/home/booking/page'
+import { usePathname } from 'next/navigation'
 
 const Navbar = () => {
+  const pathName = usePathname()
 
   const [mobile, setMobile] = useState(false)
 
@@ -29,7 +31,7 @@ const Navbar = () => {
         <div className={styles.LargeMenu}>
           {NAV_LINKS.map((menuitem) => {
             return (
-              <Link className={styles.largeMenuItem}
+              <Link className={`${ menuitem.href === pathName ? styles.largeMenuItemActive : styles.largeMenuItem } ` }
                 href={menuitem.href} key={menuitem.id}> {menuitem.label} </Link>
             )
           })}
@@ -48,6 +50,7 @@ const Navbar = () => {
 
         <div className={styles.appoint}>
           <ButtonBackground text={'Appointment'} link={'/contact'} />
+
         </div>
 
       </div>

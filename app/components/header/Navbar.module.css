@@ -67,9 +67,17 @@
     }
 }
 
-.largeMenuItem:hover {
-    border-bottom: 2px solid var(--red);
-    height: 90%;
+.largeMenuItemActive {
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0 1rem;
+    color: var(--orangered);
+    border-bottom: 2px solid var(--orangered);                       
+
+    @media(max-width: 768px) {
+        color: var(--white);
+        font-weight: 500;
+    }
 }
 
 .logo {
