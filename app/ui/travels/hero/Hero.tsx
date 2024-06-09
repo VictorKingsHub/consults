@@ -9,7 +9,7 @@ import { Button, ButtonBackground } from '@/app/components/reusable/button/Butto
 export default function EmblaCarouselTravel() {
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 10000, duration: 2000, stopOnMouseEnter: true, stopOnFocusIn: true, stopOnInteraction: false }),
+    Autoplay({ delay: 6000, duration: 5000, stopOnMouseEnter: true, stopOnFocusIn: true, stopOnInteraction: false }),
   ])
 
   useEffect(() => {
