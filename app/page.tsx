@@ -23,7 +23,8 @@ export default function Home() {
         title={"Get the most satisfying services"}
         description={"Riskout Consults lead in Travels agency and Study consulting.Prepares clientele for Teachers capacity building seminars and workshopsSchool Supervision, Mgt. and Teachers Recruiting, Curriculum Design and Development, Supply of teaching and Learning Aids and Training for IELTS and "}
         text={"Stay Conected"}
-        link={"/about"} />
+        // link={"/about"} 
+        />
 
       <BannerSection />
 
