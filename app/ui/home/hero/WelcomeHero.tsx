@@ -12,7 +12,13 @@ const WelcomeHero = () => {
             <div className={styles.text}>
                 <span className={styles.welcome}>Welcome</span>
                 <h1 className={styles.header}>Educational Placement and Travel Consulting</h1>
-                <p className={styles.description}>We provide services to a large clientele seeking academic pursuit overseas and families pursuing working and resident permit Abroad</p>
+                <p className={styles.description}>
+                    
+                    {/* We provide services to a large clientele seeking academic pursuit overseas and families pursuing working and resident permit Abroad */}
+                    
+                    Welcome to RISKOUT CONSULTS. We provide educational consultancy services for schools in Nigeria, supporting academic success and school supervision. We also offer international travel opportunities for students, individuals and groups, promoting cultural exchange and exploration.
+
+                    </p>
                 <div className={styles.buttons}>
                     <ButtonBackground text={'Go to Education'} link={'/education'} />
                     <Button text={'Go to Travels'} link={'/travels'} />
