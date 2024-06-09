@@ -32,7 +32,7 @@ const WelcomeHero = () => {
                 <div className={styles.imageWrapper}>
                     <Image
                         // src="/man.jpg"
-                        src="/mman.jpeg"
+                        src="/snap.jpg"
                         width={350}
                         height={350}
                         alt='traveller'
