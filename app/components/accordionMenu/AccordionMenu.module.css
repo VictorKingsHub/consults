@@ -74,6 +74,7 @@
     background-color: var(--white);
     text-transform: capitalize;
     opacity: .9;
+    margin: 0 3px;
 
     @media(max-width: 768px) {
         font-size: 17px;
@@ -96,6 +97,8 @@
     font-size: 17px;
     text-transform: capitalize;
     opacity: .9;
+    margin: 0 3px;
+
 
     @media(max-width: 768px) {
         font-size: 17px;
