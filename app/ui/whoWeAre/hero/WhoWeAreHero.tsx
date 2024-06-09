@@ -7,7 +7,7 @@ const WhoWeAreHero = () => {
         <h1>Who We Are</h1>
       </div>
       <div className={styles.desc}>
-        <p>We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.</p>
+        <p>Your trusted partner in education and travel solutions. We specialize in School Supervision; Providing guidance and support for students and schools, Staff Recruiting for schools and organisations, Travel Services, Work and Study Abroad Programs.</p>
       </div>
     </div>
   )
