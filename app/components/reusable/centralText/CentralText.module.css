@@ -41,8 +41,8 @@
 }
 
 .title {
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     color: var(--blue);
     border-bottom: 2px solid var(--orange);
     Font-family: Exo, sans-serif;
