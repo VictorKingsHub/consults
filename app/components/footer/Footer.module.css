@@ -11,7 +11,6 @@
     background-color: var(--footerDark);
     overflow-x: hidden;
     padding: 2rem 5rem;
-    gap: 10px;
     color: var(--smoke);
     font-size: 14px;
     width: 100vw;
