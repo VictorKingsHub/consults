@@ -38,7 +38,7 @@ const TravelsPage = () => {
        <TravelServicesPage />
 
       <WhyChooseUs
-        img={"/man.jpg"}
+        img={"/amen.jpg"}
         icon1={<FaUserGraduate />}
         icon2={<RiSpeakFill />}
         icon3={<GiHumanPyramid />}
