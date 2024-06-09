@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className={styles.Menu}>
         <div className={styles.logo}>
           <Link href="/">
-            <Image alt="risk.jpeg" src="/logo.jpg" width={55} height={25} />
+            <Image alt="riskl.jpeg" src="/logo.jpg" width={55} height={25} />
           </Link>
         </div>
 
