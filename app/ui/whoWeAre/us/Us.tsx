@@ -31,7 +31,7 @@ export default function UsSection() {
                 coreValueTitle={'Our Core values'}
                 coreValueImage={"/team2.jpg"}
                 vissionDescription={'We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'}
-                coreValueDescription='We are Nigerian based firm that is into Human Capacity, Seminars and workshops. We train staff of companies, Teachers in private and public schools, school proprietors and Administrators, bankers, Health Officials and Personnel, Staff of security Agencies etc.'
+                coreValueDescription='We empower individuals and organisations to reach their full potential, connecting people and opportunities with excellence, inclusivity, and integrity, inspiring creativity and positive impact.'
                 coreValueImageAlt='"/team2.jpg"'
             />
         </div>
