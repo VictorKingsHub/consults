@@ -27,7 +27,7 @@ const TravelsPage = () => {
         label3='SCHOLARSHIP'
         desc1='We offer a wide range of travel service and packages tailored to different preference and budgets'
         desc2='Riskout Travels offers services of finding work opportunities while traveling'
-        desc3='We give professional guides and assistance through out your apllication and study experience' label4={''} desc4={''}      />
+        desc3='We give professional guides and assistance through our well-structured Academy for Educators' label4={''} desc4={''}      />
 
        <CentralText
         title={"Get the most satisfying services"}
