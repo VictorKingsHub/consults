@@ -71,7 +71,7 @@
     cursor: pointer;
     text-align: center;
     color: var(--dark);
-    background-color: var(--white);
+    background-color: var(--whiteDark);
     text-transform: capitalize;
     opacity: .9;
     margin: 0 3px;
