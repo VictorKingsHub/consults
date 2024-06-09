@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import styles from "./ServiceOptions.module.css"
+import Link from 'next/link';
 
 interface ServiceOptionsProps {
     label1: string;
@@ -18,8 +19,10 @@ const ServiceOptions = ({ label1, label2, label3, label4, desc1, desc2, desc3, d
 
     <div className={styles.container}>
             <div className={styles.service}>
-                    <h3 className={styles.label}>{label1}</h3>
+                <Link href={"/education/servicesOption/ServiceOption.tsx"}>
                     <p className={styles.desc}>{desc1}</p>
+                    <h3 className={styles.label}>{label1}</h3>
+                </Link>
             </div>
 
             <div className={styles.service}>

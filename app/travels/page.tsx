@@ -22,9 +22,9 @@ const TravelsPage = () => {
       <EmblaCarouselTravel />
 
       <ServiceOptions
-        label1='TRAVEL'
-        label2='WORK'
-        label3='STUDY'
+        label1='WORK'
+        label2='STUDY'
+        label3='SCHOLARSHIP'
         desc1='We offer a wide range of travel service and packages tailored to different preference and budgets'
         desc2='Riskout Travels offers services of finding work opportunities while traveling'
         desc3='We give professional guides and assistance through out your apllication and study experience'
