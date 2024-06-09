@@ -19,7 +19,10 @@
         background-color: var(--footerDark);
         opacity: .9;
         flex-direction: column;
-        height: 20vh;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        display: none;
     }
 }
 
@@ -90,4 +93,5 @@
 
 .burger{
     display: none;
+    /* color: var(--white); */
 }

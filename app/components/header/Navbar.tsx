@@ -29,23 +29,24 @@ const Navbar = () => {
         </div>
 
         <div className={styles.LargeMenu}>
+
+          <div className={styles.burger}>
+            {mobile ?
+              <div className={styles.close} onClick={handleMobile}>
+                <MdOutlineClose />
+              </div> :
+              <div className={styles.open} onClick={handleMobile}>
+                <RxHamburgerMenu />
+              </div>
+            }
+          </div>
+
           {NAV_LINKS.map((menuitem) => {
             return (
-              <Link className={`${ menuitem.href === pathName ? styles.largeMenuItemActive : styles.largeMenuItem } ` }
+              <Link className={`${menuitem.href === pathName ? styles.largeMenuItemActive : styles.largeMenuItem} `}
                 href={menuitem.href} key={menuitem.id}> {menuitem.label} </Link>
             )
           })}
-        </div>
-
-        <div className={styles.burger}>
-          {mobile ?
-            <div className={styles.close} onClick={handleMobile}>
-              <MdOutlineClose />
-            </div> :
-            <div className={styles.open} onClick={handleMobile}>
-              <RxHamburgerMenu />
-            </div>
-          }
         </div>
 
         <div className={styles.appoint}>

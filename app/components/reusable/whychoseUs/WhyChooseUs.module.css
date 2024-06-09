@@ -56,11 +56,12 @@
     font-weight: 600;
     text-shadow: 2px 2px #000000;
     text-shadow: 4px 4px 9px rgba(26, 25, 25, 0.377);
+    color: var(--red);
 }
 
 .why {
-    color: var(--red);
     padding-right: 7px;
+    color: var(--dark);
 }
 
 .wrapper{

@@ -51,7 +51,11 @@ export default function Footer() {
       <div className={styles.last}>
         <div className={styles.two}>
           <Marquee pauseOnHover={true} pauseOnClick={true} gradient={true} gradientColor=" " gradientWidth={50} >
-            <div className={styles.marque} >The Best Travel and Educational consulting firm.</div>
+            <div className={styles.marque} > 
+            {/* An organization built on respect and ingtegrity. */}
+            The quality of our service makes the difference  
+            
+             </div>
           </Marquee>
         </div>
         <div className={styles.three}>
