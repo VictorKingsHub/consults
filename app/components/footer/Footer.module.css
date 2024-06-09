@@ -78,6 +78,8 @@
 .quick_links {
     text-align: left;
     width: 25%;
+    margin: 0 5px;
+
 
     @media(max-width: 768px) {
         display: flex;
@@ -136,6 +138,7 @@
     width: 1005;
     text-align: center;
     width: 100%;
+    margin: 0 5px;
 
     @media(max-width: 768px) {
         width: fit-content;
