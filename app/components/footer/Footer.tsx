@@ -42,7 +42,7 @@ export default function Footer() {
             <div className={styles.time}> <span className=" text-[#f8f8f8]"><IoMdTime /> </span> <p className="ml-3 text-[#f8f8f8]"> Saturday: 9:00am - 3:00pm </p>  </div>
           </div>
           <div className="mt-5">
-            <ButtonBackground text={"Request an apointment"} link={"/contact"} />
+            <ButtonBackground text={"Request an appointment"} link={"/contact"} />
           </div>
 
         </div>
