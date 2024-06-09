@@ -33,13 +33,13 @@ export default function EmblaCarouselEducation() {
                 <br /> The right to education is legally guaranteed for all without any discrimination  </p>
             </div>
 
-            <div className="buttons">
+            {/* <div className="buttons">
               <ButtonBackground text={'Scholarships'} link={'/scholarships'} />
               <a target="_blank" href={'//docs.google.com/forms/d/e/1FAIpQLSdlBms6yTvPvwZv2QRcnJJkMu5_21hoZoYtowBCecPD6j3LUQ/viewform'} rel="noopener noreferrer">
                 <button className="connect"> Get Started</button>
               </a>
               <ButtonBackground text={'Trained Teachers'} link={'trainedteachers'} />
-            </div>
+            </div> */}
             <div className="icon">
             </div>
           </div>
