@@ -32,7 +32,7 @@ const educationPage = () => {
 
       <CentralText
         title='Get the most satisfying services'
-        description='Riskout Consults keeps informed on the latest instructional material techniques and trends to best assist their clients. We also provide assistance to a school by reviewing and analyzing a schools performance data, such as test scores and graduation rates'
+        description='Riskout Consults keeps you informed on the latest instructional material techniques and trends.  We also provide assistance to schools by reviewing and analyzing the schools&apos; performance data, such as test scores and graduation rates'
       />
 
       <EducationServicesPage />

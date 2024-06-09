@@ -17,9 +17,9 @@ const EducationServicesPage = () => {
         <div className={styles.container}>
             <div className={styles.popular}>
                 <div className={styles.toplabel}> Our Top Services</div>
-                <div className={styles.topDesc}>
+                {/* <div className={styles.topDesc}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vero fugiat quisquam excepturi adipisci tempore nam iste, molestiae at saepe!  molestiae at saepe!  molestiae at saepe!
-                </div>
+                </div> */}
             </div>
             <div className={styles.wrapper}>
                 {EDUCATIONSERVICES.map((serviceItem) => {
