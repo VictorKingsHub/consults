@@ -11,7 +11,7 @@ const WelcomeHero = () => {
         <div className={styles.container}>
             <div className={styles.text}>
                 <span className={styles.welcome}>Welcome</span>
-                <h1 className={styles.header}>Educational Placement and Travel Consulting</h1>
+                <h1 className={styles.header}>Educational Placement and Travel & Study Abroad</h1>
                 <p className={styles.description}>
                     
                     {/* We provide services to a large clientele seeking academic pursuit overseas and families pursuing working and resident permit Abroad */}
