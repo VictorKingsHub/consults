@@ -31,8 +31,8 @@ const WelcomeHero = () => {
             <div className={styles.image}>
                 <div className={styles.imageWrapper}>
                     <Image
-                        // src="/man.jpg"
-                        src="/snap.jpg"
+                        src="/man.jpg"
+                        // src="/snap.jpg"
                         width={350}
                         height={350}
                         alt='traveller'
