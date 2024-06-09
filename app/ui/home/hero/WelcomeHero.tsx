@@ -16,7 +16,7 @@ const WelcomeHero = () => {
                     
                     {/* We provide services to a large clientele seeking academic pursuit overseas and families pursuing working and resident permit Abroad */}
                     
-                    Welcome to RISKOUT CONSULTS. We provide educational consultancy services for schools in Nigeria, supporting academic success and school supervision. We also offer international travel opportunities for students, individuals and groups, promoting cultural exchange and exploration.
+                    We provide educational consultancy services for schools in Nigeria, supporting academic success and school supervision. We also offer international travel opportunities for students, individuals and groups, promoting cultural exchange and exploration.
 
                     </p>
                 <div className={styles.buttons}>
