@@ -21,7 +21,7 @@ export default function Home() {
 
       <CentralText
         title={"Get the most satisfying services"}
-        description={"Riskout Consults lead in Travels and Study Abroad consulting. We also prepares clientele for Teachers Capacity Building Seminars and Workshops, School Supervision, Management and Teachers Recruiting, Curriculum Design and Development, Supply of Teaching and Learning Aids and Training for IELTS"}
+        description={"Riskout Consults lead in Travels and Study Abroad consulting. We also prepare clientele for Teachers Capacity Building Seminars and Workshops, School Supervision, Management and Teachers Recruiting, Curriculum Design and Development, Supply of Teaching and Learning Aids and Training for IELTS"}
         text={"Stay Conected"}
         // link={"/about"} 
         />

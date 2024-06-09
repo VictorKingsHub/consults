@@ -9,7 +9,7 @@
     // {id: 4, question: "Risk Management", title: "Risk Management", answer: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeds", img: "/risk.png", link: "/travels/insurance", button: "Learn More"},
     
     {id: 4, question: "Trained Teachers Academy", title: "Trained Teachers Academy", answer: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeds", img: "/risk.png", link: "/travels/insurance", button: "Learn More"},
-    {id: 5, question: "Scholarships", title: "Scholarships", answer: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeds", img: "/risk.png", link: "/travels/insurance", button: "Learn More"},
+    // {id: 5, question: "Scholarships", title: "Scholarships", answer: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeds", img: "/risk.png", link: "/travels/insurance", button: "Learn More"},
     // {id: 6, question: "Web Design & Development", title: "Web Design & Development", answer: "Riskout Travels assists travelers in selecting the right travel insurance policies to protect them against unforeds", img: "/risk.png", link: "/travels/insurance", button: "Learn More"},
 ]
 export default data

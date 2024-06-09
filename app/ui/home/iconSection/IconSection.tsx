@@ -7,6 +7,7 @@ import { CiCompass1 } from "react-icons/ci"
 import { PiChalkboardTeacherThin } from "react-icons/pi";
 import { PiBookOpenTextThin } from "react-icons/pi";
 import { ServicesHead } from '@/app/components/reusable/servicesHead/ServicesHead';
+import { SiSemanticscholar } from 'react-icons/si';
 
 const IconSection = () => {
   return (
@@ -48,12 +49,12 @@ const IconSection = () => {
             <div className={styles.iconText}> Risk Accessment </div>
           </Link>
         </div>
-        {/* <div className={styles.both}>
-          <Link href="/travels" className={styles.link}>
-            <PiAirplaneTiltThin className={styles.serviceIcon} />
-            <div className={styles.iconText} > Travel Agency </div>
+        <div className={styles.both}>
+          <Link href="/education/scholarships" className={styles.link}>
+            <SiSemanticscholar className={styles.serviceIcon} />
+            <div className={styles.iconText} > Scholarships </div>
           </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   )
