@@ -20,7 +20,7 @@ const WelcomeHero = () => {
 
                     </p>
                 <div className={styles.buttons}>
-                    <ButtonBackground text={'Educationa Consulting'} link={'/education'} />
+                    <ButtonBackground text={'Educational Consulting'} link={'/education'} />
                     <Button text={'Study and Work abroad'} link={'/travels'} />
                 </div>
                 {/* <div className={styles.img}>
