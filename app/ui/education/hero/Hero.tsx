@@ -62,12 +62,12 @@ export default function EmblaCarouselEducation() {
             <p> Visa Processing, Job security, Risk Assesment, Travel Insurance, Risk Management, IELTS exams </p>
           </div>
 
-          {/* <div className="buttons">
-            <a href={'//docs.google.com/forms/d/e/1FAIpQLSdlBms6yTvPvwZv2QRcnJJkMu5_21hoZoYtowBCecPD6j3LUQ/viewform'} target='_blank' rel="noopener noreferrer">
+          <div className="buttons">
+            {/* <a href={'//docs.google.com/forms/d/e/1FAIpQLSdlBms6yTvPvwZv2QRcnJJkMu5_21hoZoYtowBCecPD6j3LUQ/viewform'} target='_blank' rel="noopener noreferrer">
               <button className="connect"> Register Today</button>
-            </a>
+            </a> */}
             <ButtonBackground text={'Make Inquiry'} link={'/contact'} />
-          </div> */}
+          </div>
           <div className="icon">
           </div>
         </div>
