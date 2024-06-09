@@ -48,12 +48,12 @@ const IconSection = () => {
             <div className={styles.iconText}> Risk Accessment </div>
           </Link>
         </div>
-        <div className={styles.both}>
+        {/* <div className={styles.both}>
           <Link href="/travels" className={styles.link}>
             <PiAirplaneTiltThin className={styles.serviceIcon} />
             <div className={styles.iconText} > Travel Agency </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )
