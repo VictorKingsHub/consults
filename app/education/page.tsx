@@ -20,10 +20,14 @@ const educationPage = () => {
       <EmblaCarouselEducation />
 
       <ServiceOptions
-        label1='SCHOLARSHIPS'
-        label2='CAMBRIDGE CURRICULUM'
-        label3='TRAINED TEACHERS ACADEMY'
-        desc1='We offer a wide range of travel service and packages tailored to different preference and budgets.' desc2='Riskout Travels offers services of finding work opportunities while traveling' desc3='We give professional guides and assistance through out your apllication and study experience'
+        label1='SCHOOL SERVICES'
+        label2='SCHOOL UPGRADE'
+        label3='TEACHING MATERIALS'
+        label4="TRAINED TEACHERS ACADEMY"
+        desc1='Teachers Capacity Building and Workshop, School Supervision, Management and Teacher&apos;s recruiting.'
+        desc2='Accreditation and Upgrading for new and existing schools, Curriculum design and  development..'
+        desc3="Supply of Teaching and learning aids"
+        desc4='We give professional guides and assistance through out your apllication and study experience'
       />
 
       <CentralText
