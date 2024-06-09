@@ -25,7 +25,9 @@ export default function EmblaCarouselEducation() {
           <div className="left">
 
             <div className="header">
-              <p className="title"> We Are Committed to Offering Reliable Educatioinal Consulting Across Nigeria </p>
+              <p className="title"> 
+              {/* Expert Support You Can Count On */}
+              We Are Committed to Offering Reliable Educational Consulting Across Nigeria </p>
             </div>
             <div className="desc">
               <p>We are concerned with your education.
