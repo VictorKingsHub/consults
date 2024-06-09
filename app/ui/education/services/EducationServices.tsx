@@ -40,7 +40,7 @@ const EducationServicesPage = () => {
                                 <h1
                                     className={` ${selected === serviceItem.id ? styles.activeLabel : styles.label} `}
                                 >{serviceItem.label}</h1>
-                                <p className={styles.desc}> {serviceItem.description} </p>
+                                {/* <p className={styles.desc}> {serviceItem.description} </p> */}
                             </div>
                         </div>
                     )
