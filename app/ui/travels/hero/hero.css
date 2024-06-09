@@ -25,7 +25,8 @@
 }
 
 .one {
-  background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/qantas.jpg');
+  /* background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/qantas.jpg'); */
+  background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/w.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
