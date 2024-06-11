@@ -6,14 +6,11 @@ import { PiAirplaneTiltThin } from "react-icons/pi";
 import { CiCompass1 } from "react-icons/ci"
 import { PiChalkboardTeacherThin } from "react-icons/pi";
 import { PiBookOpenTextThin } from "react-icons/pi";
-import { ServicesHead } from '@/app/components/reusable/servicesHead/ServicesHead';
 import { SiSemanticscholar } from 'react-icons/si';
 
 const IconSection = () => {
   return (
     <div className={styles.container}>
-
-      {/* <ServicesHead title='Our Travel Services' /> */}
 
       <div className={styles.wrapper}>
         <div className={styles.both}>

@@ -56,7 +56,7 @@ function CountryMenu() {
                         return (
                             <div className={styles.allAnswer} key={list.id}>
                                 {selected === list.id && (
-                                    <div className={styles.com}>
+                                    <div className={styles.com} key={list.name}> 
                                         <div className={styles.answerImg}>
                                             <Image className={styles.img} src={list.photo} alt={list.name} width={200} height={200} />
                                         </div>
