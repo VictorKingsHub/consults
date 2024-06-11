@@ -23,9 +23,6 @@ const IeltsConnect = () => {
         </div>
         <div className={styles.buttons}>
           <div className={styles.istBtns}>
-            <Link target='-blank' href={"tel:+2348028600330"} className={styles.btn}>
-              <span> Phone </span> <span><FaPhone /></span>
-            </Link>
             <Link target='-blank' href={"https://www.facebook.com/Riskouteduconsults"} className={styles.btn}>
               <span> Facebook </span> <span><FaFacebook /></span>
             </Link>
@@ -34,9 +31,6 @@ const IeltsConnect = () => {
 
             <Link target='-blank' href={"https://www.linkedin.com/in/riskout-consults-161511270"} className={styles.btn}>
               <span>  Linkedin </span> <span> <FaLinkedin /> </span>
-            </Link>
-            <Link target='-blank' href="mailto:riskoutconsults@gmail.com" className={styles.btn}>
-              <span>  Mail </span> <span> <BiLogoGmail /> </span>
             </Link>
           </div>
         </div>

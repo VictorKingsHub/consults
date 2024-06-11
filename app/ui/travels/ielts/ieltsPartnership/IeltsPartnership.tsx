@@ -3,9 +3,9 @@ import styles from "./IeltsPartnership.module.css"
 import Image from 'next/image'
 
 const Partners = [
-    { label: "Cambridge English", img: "/CambridgeEnglish.PNG", id: 1 },
-    { label: "British Council", img: "/britishCounsilL.JPG", id: 2 },
-    { label: "IDP", img: "/idp.PNG", id: 3 }
+    { label: "Cambridge English", img: "/CambridgeEnglish.png", id: 1 },
+    { label: "British Council", img: "/britishCounsilL.jpg", id: 2 },
+    { label: "IDP", img: "/idp.png", id: 3 }
 ]
 
 const IeltsPartnership = () => {
