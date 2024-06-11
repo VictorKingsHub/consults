@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from "./ContactForm.module.css"
-import SocialMediaLinks from '@/app/components/reusable/socialMediaIcons/SocialMediaLinks'
 import Link from 'next/link'
-import { FaPhone } from 'react-icons/fa6'
+import SocialMediaLinks from '@/components/reusable/socialMediaIcons/SocialMediaLinks'
 
 const ContactForm = () => {
 

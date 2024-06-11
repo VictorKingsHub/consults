@@ -82,8 +82,8 @@ export const FOOTER_CONTENT = {
     ],
     footerNav: [
         { title: "QUICK LINKS", id: 1 },
-        { label: "Welcome", link: "/welcome", id: 2 },
-        { label: "Travel Consulting", link: "/travels", id: 3 },
+        { label: "Welcome", link: "/", id: 2 },
+        { label: "Work and Study Abroad", link: "/travels", id: 3 },
         { label: "Scholarships", link: "/education/scholarships", id: 4 },
         { label: "Educational Consulting", link: "/education", id: 5 },
         { label: "Who We Are", link: "/whoWeAre" , id: 6},

@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { NAV_LINKS } from '@/app/constants'
+import { NAV_LINKS } from '@/components/constants'
 import { ButtonBackground } from '../reusable/button/Button'
 import styles from "./Navbar.module.css"
 import { RxHamburgerMenu } from 'react-icons/rx'

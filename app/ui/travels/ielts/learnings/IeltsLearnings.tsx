@@ -36,7 +36,7 @@ const IeltsLearning = () => {
           <p className={styles.desc}>For more than 30 years IELTS has set the standard for English Language Testing. Trusted by governments, employers and educational institutions – we have helped millions of people to achieve their goals</p>
         </div>
         <div>
-            <h1 className={styles.title}>Levels of Tests</h1>
+            <h1 className={styles.title2}>Levels of Tests</h1>
             <div className={styles.all}>
               <p>Speaking</p>
               <p>Listening</p>

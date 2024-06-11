@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { COUNTRIES_OPTIONS } from '@/app/constants'
+import { COUNTRIES_OPTIONS } from '@/components/constants'
 import styles from "./Countries.module.css"
 
 const CountryDropdown = () => {

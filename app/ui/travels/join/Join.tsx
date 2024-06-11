@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Join.module.css"
-import { Button, ButtonBackground } from '@/app/components/reusable/button/Button'
+import { Button, ButtonBackground } from '@/components/reusable/button/Button'
 const Join = () => {
     return (
         <div className={styles.container}>

@@ -37,13 +37,13 @@
 }
 
 .subtitle {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--white)
 }
 
 .title {
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--white);
 
@@ -63,7 +63,7 @@
 
 .desc {
   color: var(--white);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   text-transform: lowercase;
 }
@@ -73,7 +73,7 @@
   color: var(--white);
   padding: .3rem .5rem;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 16px;
   box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
 
 
@@ -87,7 +87,7 @@
   border: 20x solid var(--orange);
   padding: .3rem .5rem;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 16px;
   box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
 
 

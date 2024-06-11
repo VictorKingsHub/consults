@@ -1,17 +1,15 @@
 import React from 'react'
-import EmblaCarousel from '../ui/travels/hero/Hero'
-import { ServicesHead } from '../components/reusable/servicesHead/ServicesHead'
-import { CentralText } from '../components/reusable/centralText/CentralText'
 import EducationServicesPage from '../ui/education/services/EducationServices'
-import WhyChooseUs from '../components/reusable/whychoseUs/WhyChooseUs'
 import { FaSchool, FaUserGraduate } from 'react-icons/fa6'
 import { RiSpeakFill } from 'react-icons/ri'
 import { GiHumanPyramid, GiTeacher } from 'react-icons/gi'
 import { MdOutlineConnectWithoutContact } from 'react-icons/md'
-import Testimonial from '../components/reusable/testimonial/Testimonial'
-import ServiceOptions from '../components/reusable/serviceOptions/ServiceOptions'
 import EmblaCarouselEducation from '../ui/education/hero/Hero'
-import GetCertified from '../components/reusable/certified/Certified'
+import ServiceOptions from '@/components/reusable/serviceOptions/ServiceOptions'
+import { CentralText } from '@/components/reusable/centralText/CentralText'
+import WhyChooseUs from '@/components/reusable/whychoseUs/WhyChooseUs'
+import Testimonial from '@/components/reusable/testimonial/Testimonial'
+import GetCertified from '@/components/reusable/certified/Certified'
 
 
 const educationPage = () => {

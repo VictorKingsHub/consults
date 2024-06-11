@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styles from "./TravelServices.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { TRAVELSERVICES } from '@/app/constants'
+import { TRAVELSERVICES } from '@/components/constants'
 
 
 const TravelServicesPage = () => {

@@ -4,7 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import "./hero.css"
 import Link from 'next/link'
-import { ButtonBackground } from '@/app/components/reusable/button/Button'
+import { ButtonBackground } from '@/components/reusable/button/Button'
 
 export default function EmblaCarouselEducation() {
 

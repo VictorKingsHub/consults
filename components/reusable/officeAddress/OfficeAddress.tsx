@@ -1,4 +1,4 @@
-import { FOOTER_CONTENT } from '@/app/constants'
+import { FOOTER_CONTENT } from '@/components/constants'
 import React from 'react'
 import styles from "./OfficeAddress.module.css"
 

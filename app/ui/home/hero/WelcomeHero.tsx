@@ -1,16 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useRef } from 'react'
+import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
 import styles from "./WelcomeHero.module.css"
+import { Button, ButtonBackground } from '@/components/reusable/button/Button'
 import Image from 'next/image'
-import photo4 from "@/public/plane.png"
-import Link from 'next/link'
-import { ButtonBackground, Button } from '@/app/components/reusable/button/Button'
-// import phpt from 
 
-const WelcomeHero = () => {
+export default function WelcomeHero(){
     return (
         <div className={styles.container}>
             <div className={styles.text}>
-                {/* <span className={styles.welcome}>Welcome</span> */}
                 <h1 className={styles.header}>Educational Placement and Travel & Study Abroad</h1>
                 <p className={styles.description}>
                     We provide educational consultancy services for schools in Nigeria, supporting academic success and school supervision. We also offer international travel opportunities for students, individuals and groups, promoting cultural exchange and exploration.
@@ -38,10 +37,40 @@ const WelcomeHero = () => {
                         alt='traveller'
                         className={styles.img}
                     />
+
+                    {/* <WelcomeCarouselTravel /> */}
+
                 </div>
             </div>
         </div>
     )
 }
 
-export default WelcomeHero
+
+
+
+// export function WelcomeCarouselTravel() {
+
+//     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+//       Autoplay({ delay: 6000, duration: 5000, stopOnMouseEnter: true, stopOnFocusIn: true, stopOnInteraction: false }),
+//     ])
+  
+//     useEffect(() => {
+//       if (emblaApi) {
+//         console.log(emblaApi.slideNodes())
+//       }
+//     }, [emblaApi])
+  
+//     return (
+//       <div className="embla" ref={emblaRef} >
+//         <div className="embla__container">
+//           <div className="embla__slide   one"> One </div>
+//           <div className="embla__slide two">  two</div>
+  
+  
+//           <div className="embla__slide   three">Three</div>
+//           <div className="embla__slide four">Four</div>
+//         </div>
+//       </div>
+//     )
+//   }

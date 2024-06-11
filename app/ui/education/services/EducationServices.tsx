@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styles from "./EducationServices.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { EDUCATIONSERVICES } from '@/app/constants'
+import { EDUCATIONSERVICES } from '@/components/constants'
 
 const EducationServicesPage = () => {
 

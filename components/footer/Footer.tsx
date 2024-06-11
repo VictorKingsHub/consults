@@ -1,7 +1,6 @@
 "use client"
-import { FOOTER_CONTENT } from "@/app/constants"
+import { FOOTER_CONTENT } from "@/components/constants"
 import styles from "./Footer.module.css"
-import Link from "next/link"
 import Marquee from "react-fast-marquee";
 import { IoMdTime } from "react-icons/io";
 import { ButtonBackground } from "../reusable/button/Button";
@@ -9,8 +8,7 @@ import SocialMediaLinks from "../reusable/socialMediaIcons/SocialMediaLinks";
 import PhonesNumbers from "../reusable/phoneNumbers/Phones";
 import OfficeAddress from "../reusable/officeAddress/OfficeAddress";
 import Image from "next/image";
-import footerImage from "../../../public/footer.jpg"
-import { useEffect, useState } from "react";
+import footerImage from "../../public/footer.jpg"
 
 export default function Footer() {
 
@@ -52,8 +50,13 @@ export default function Footer() {
         <div className={styles.two}>
           <Marquee pauseOnHover={true} pauseOnClick={true} gradient={true} gradientColor=" " gradientWidth={50} >
             <div className={styles.marque} > 
-            {/* An organization built on respect and ingtegrity. */}
+            
+            <span className="mx-[10vw]">
+            An organization built on respect and integrity.
+            </span>
+            <span className="mx-[10vw]">
             The quality of our service makes the difference  
+            </span>
             
              </div>
           </Marquee>

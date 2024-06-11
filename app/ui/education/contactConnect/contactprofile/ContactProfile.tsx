@@ -18,18 +18,23 @@ const ContactProfile = () => {
             <Link target='-blank' href="tel:+2348037855426" className={styles.link} > +234803 785 5426 </Link> ,
             <Link target='-blank' href="tel:+2348037995433" > +234803 785 0000 </Link>
           </p>
+          <hr />
           <p>
             <span className='text-blue-800'> Email: </span>
-            <Link target='-blank' href="mailto:riskoutconsults@gmail.com" className='pl-3'> riskoutconsults@gmail.com </Link></p>
+            <Link target='-blank' href="mailto:riskoutconsults@gmail.com" className='pl-3'> riskoutconsults@gmail.com </Link>
+          </p>
+          <hr />
           <p>
             <span className='text-blue-800'> Time Available: </span>
-            <span className='ml-3'> 8am - 4pm</span></p>
-
+            <span className='ml-3'> 8am - 4pm</span>
+          </p>
+          <hr style={{color: "red", borderBlockColor: "red"}} />
           <p>
-
             <span className='text-blue-800'> Days Available: </span> <span className='ml-3'>
               Mondays - Sundays
-            </span></p>
+            </span>
+          </p>
+          <hr />
         </div>
       </div>
     </div>

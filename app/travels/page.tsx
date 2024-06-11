@@ -1,19 +1,17 @@
 import React from 'react'
-import Join from '../ui/travels/join/Join'
-import EmblaCarousel from '../ui/travels/hero/Hero'
-import { CentralText } from '../components/reusable/centralText/CentralText'
-import WhyChooseUs from '../components/reusable/whychoseUs/WhyChooseUs'
 import { FaUserGraduate } from "react-icons/fa6";
 import { RiSpeakFill } from "react-icons/ri";
 import { GiHumanPyramid } from "react-icons/gi";
 import { FaSchool } from "react-icons/fa";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
 import { GiTeacher } from "react-icons/gi";
-import Testimonial from '../components/reusable/testimonial/Testimonial'
-import ServiceOptions from '../components/reusable/serviceOptions/ServiceOptions'
 import EmblaCarouselTravel from '../ui/travels/hero/Hero'
 import TravelServicesPage from '../ui/travels/services/TravelServices'
-import GetCertified from '../components/reusable/certified/Certified'
+import ServiceOptions from '@/components/reusable/serviceOptions/ServiceOptions';
+import { CentralText } from '@/components/reusable/centralText/CentralText';
+import WhyChooseUs from '@/components/reusable/whychoseUs/WhyChooseUs';
+import Testimonial from '@/components/reusable/testimonial/Testimonial';
+import GetCertified from '@/components/reusable/certified/Certified';
 
 const TravelsPage = () => {
 

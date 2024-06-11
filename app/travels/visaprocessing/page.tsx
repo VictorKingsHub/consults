@@ -1,7 +1,7 @@
-import GetCertified from '@/app/components/reusable/certified/Certified'
 import VisaProcessingHero from '@/app/ui/travels/visaprocessing/hero/VisaProcessingHero'
 import VisaBest from '@/app/ui/travels/visaprocessing/visaBest/VisaBest'
 import WhyVisa from '@/app/ui/travels/visaprocessing/whyVisa/WhyVisa'
+import GetCertified from '@/components/reusable/certified/Certified'
 import React from 'react'
 
 const VisaProcessingPage = () => {

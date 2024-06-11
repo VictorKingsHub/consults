@@ -13,7 +13,7 @@ const IeltsPartnership = () => {
         <div className={styles.container}>
             <div className={styles.up}>
                 <div className={styles.left}>
-                    <h1 className={styles.title}>A global partnership
+                    <h1 className={styles.title}>Our global partnership
                     </h1>
                 </div>
                 <div className={styles.right}> <p>Jointly owned by the British Council; IDP IELTS; and Cambridge University Press & Assessment - IELTS combines global presence with a commitment to academic research.</p> </div>

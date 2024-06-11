@@ -1,12 +1,16 @@
 import IconSection from "./ui/home/iconSection/IconSection"
 import WelcomeHero from "./ui/home/hero/WelcomeHero";
 import Join from "./ui/travels/join/Join";
-import Review from "./components/reusable/review/ReviewSection";
-import { CentralText } from "./components/reusable/centralText/CentralText";
-import AccordionMenu from "./components/accordionMenu/AccordionMenu";
+// import Review from "./components/reusable/review/ReviewSection";
+// import { CentralText } from "./components/reusable/centralText/CentralText";
+// import AccordionMenu from "./components/accordionMenu/AccordionMenu";
 import Last from "./ui/home/last/Last";
 import BannerSection from "./ui/home/banner/BannerSection";
 import BookingSection from "./ui/home/booking/page";
+import { CentralText } from "@/components/reusable/centralText/CentralText";
+import AccordionMenu from "@/components/accordionMenu/AccordionMenu";
+import CountryDropdown from "./ui/travels/countries/Countries";
+import CountryMenu from "@/components/countrymenu/CountryMenu";
 
 
 export default function Home() {
@@ -16,6 +20,8 @@ export default function Home() {
       <WelcomeHero />
 
       <IconSection />
+      {/* <CountryDropdown /> */}
+      {/* <CountryMenu /> */}
 
       {/* <BookingSection /> */}
 

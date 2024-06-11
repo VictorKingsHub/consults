@@ -3,8 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import "./hero.css"
-import Link from 'next/link'
-import { Button, ButtonBackground } from '@/app/components/reusable/button/Button'
+import { ButtonBackground } from '@/components/reusable/button/Button'
 
 export default function EmblaCarouselTravel() {
 
@@ -56,9 +55,8 @@ export default function EmblaCarouselTravel() {
             <p> Travel on Relocation, on a Tour, study and relaxation  <br />  All you need is to  <span className='text-[#FFA500]'>connect</span> with us today. </p>
           </div>
           <div className="desc">
-            <p> Visa Processing, Job security, Risk Assesment, Travel Insurance, Risk Management, IELTS exams </p>
+            <p className='mx-auto'> Visa Processing, Job security, Risk Assesment, Travel Insurance, Risk Management, IELTS exams </p>
           </div>
-
           <div className="buttons">
             <a href={'//docs.google.com/forms/d/e/1FAIpQLSdlBms6yTvPvwZv2QRcnJJkMu5_21hoZoYtowBCecPD6j3LUQ/viewform'} target='_blank' rel="noopener noreferrer">
               <button className="connect"> Register Today</button>
@@ -68,7 +66,6 @@ export default function EmblaCarouselTravel() {
           <div className="icon">
           </div>
         </div>
-
         <div className="embla__slide four"></div>
       </div>
     </div>

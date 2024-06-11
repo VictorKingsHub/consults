@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./TravelReasons.module.css"
 import Link from 'next/link'
-import { TRAVELREASONS } from '@/app/constants'
+import { TRAVELREASONS } from '@/components/constants'
 
 const TravelReasons = () => {
     return (

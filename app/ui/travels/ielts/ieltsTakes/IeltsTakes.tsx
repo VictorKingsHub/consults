@@ -33,11 +33,9 @@ const IeltsTakes = ({ subTitle, title, desc, btnBackLink, btnBackText, btnLink, 
           </Link>
         </div>
       </div>
-      <div className={styles.image}>
+      {/* <div className={styles.image}>
 
-     {/* Image or video Here */}
-
-      </div>
+      </div> */}
     </div>
   )
 }
