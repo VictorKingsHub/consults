@@ -1,6 +1,6 @@
 .container {
     background-color: var(--lightOrange);
-    padding: 3rem 1rem;
+    padding: 1.5rem 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -43,4 +43,17 @@
         padding: .5rem;
         line-height: 17px;
     }
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    flex-wrap: wrap;
+
+    @media(max-width: 768px) {
+        padding: .5rem;
+    }
+}
+.img{
+    margin: 10px;
 }

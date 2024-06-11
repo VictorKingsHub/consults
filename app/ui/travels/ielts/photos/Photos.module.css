@@ -1,0 +1,15 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 7rem;
+    background-color: var(--lightOrange);
+    
+    @media(max-width: 768px) {
+        padding: 1.5rem .5rem;
+        flex-direction: column;
+}
+}

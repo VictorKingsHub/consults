@@ -12,8 +12,7 @@ const IeltsLearning = () => {
           
           <div className={styles.side} >
             <h1 className={styles.title}>Join Us Today</h1>
-            <p className={styles.desc}>Riskout Consults is here to help you get the result you deserve.
-            <br /> Did you score low in your IELTS Tests?
+            <p className={styles.desc}> Did you score low in your IELTS Tests?
             <br/>We are here to guide you to your desired band score for both Academic and General Training test.
             <br/>Even if this is your first attempt, you need this ongoing training.
             </p>
@@ -27,7 +26,7 @@ const IeltsLearning = () => {
 
       
       <div className={styles.image}>
-          <Image src="/ielt.PNG" width={200} height={200} alt='ielts' className={styles.img} />
+          <Image src="/ielt.png" width={200} height={200} alt='ielts' className={styles.img} />
         </div>
       
         <div className={styles.up}>

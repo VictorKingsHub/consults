@@ -26,13 +26,11 @@ const IeltsConnect = () => {
             <Link target='-blank' href={"https://www.facebook.com/Riskouteduconsults"} className={styles.btn}>
               <span> Facebook </span> <span><FaFacebook /></span>
             </Link>
-          </div>
-          <div className={styles.secondBtns}>
-
             <Link target='-blank' href={"https://www.linkedin.com/in/riskout-consults-161511270"} className={styles.btn}>
               <span>  Linkedin </span> <span> <FaLinkedin /> </span>
             </Link>
           </div>
+
         </div>
       </div>
     </div>
