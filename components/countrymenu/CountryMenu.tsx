@@ -33,7 +33,7 @@ function CountryMenu() {
                 <div className={styles.wrapper} >
                     {COUNTRIES_OPTIONS.map((list: any) => {
                         return (
-                            <div>
+                            <div key={list.name}>
                                 <div>
                                     <select key={list.id} className={` ${selected === list.id ? styles.active : styles.question} `}  >
 
