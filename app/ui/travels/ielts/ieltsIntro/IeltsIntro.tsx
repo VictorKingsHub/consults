@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./Ieltsintro.module.css"
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function IeltsIntro() {
     return (
@@ -26,6 +27,10 @@ export function IeltsIntro() {
                     <Image src="/house3.jpg" alt='' width={300} height={300} className={styles.img} />
                     <span className='font-semibold'>Vrtual Class Tutoting (Private/General) </span>
                 </div>
+            </div>
+            <div className={styles.register}>
+                <h2>Click the following buton to register for your IELTS class</h2>
+                <Link href="#" > Register</Link>
             </div>
         </div>
     )
