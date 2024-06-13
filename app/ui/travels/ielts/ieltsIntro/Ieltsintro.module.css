@@ -68,7 +68,8 @@
     align-items: center;
     text-align: center;
     background-color: var(--white);
-    padding: 5px;
+    padding: 3px;
+    margin: 5px;
 }
 
 .img {
