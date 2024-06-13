@@ -32,20 +32,7 @@ const IconSection = () => {
             <div className={styles.iconText}> Travel Insurance </div>
           </Link>
         </div>
-
-        <div className={styles.both}>
-          <Link href="/travels" className={styles.link} >
-            <PiHeartLight className={styles.serviceIcon} />
-            <div className={styles.iconText}> Risk Management </div>
-          </Link>
-        </div>
-
-        <div className={styles.both}>
-          <Link href="/travels" className={styles.link} >
-            <PiChalkboardTeacherThin className={styles.serviceIcon} />
-            <div className={styles.iconText}> Risk Accessment </div>
-          </Link>
-        </div>
+        
         <div className={styles.both}>
           <Link href="/education/scholarships" className={styles.link}>
             <SiSemanticscholar className={styles.serviceIcon} />

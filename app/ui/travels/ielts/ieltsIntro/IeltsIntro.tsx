@@ -29,8 +29,13 @@ export function IeltsIntro() {
                 </div>
             </div>
             <div className={styles.register}>
-                <h2>Click the following buton to register for your IELTS class</h2>
-                <Link href="#" > Register</Link>
+                <h2>Click the following button to register for your IELTS class</h2>
+
+                <Link href="#" >
+                    <span className={styles.btn}>
+                        Register
+                    </span>
+                </Link>
             </div>
         </div>
     )
