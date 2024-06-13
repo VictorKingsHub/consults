@@ -30,7 +30,7 @@ export default function EmblaCarouselTravel() {
               <p className="desc">You stand to gain the best travel experience with Riskout Consults. <br />  All you need is to  <span className='text-[#FFA500]'>connect</span> with us today. </p>
             </div>
             <div className="buttons">
-              <ButtonBackground text={'IELTS Exams'} link={'./ielts'} />
+              <ButtonBackground text={'IELTS Exams'} link={'/travels/ielts'} />
               <a target="_blank" href={'//docs.google.com/forms/d/e/1FAIpQLSdlBms6yTvPvwZv2QRcnJJkMu5_21hoZoYtowBCecPD6j3LUQ/viewform'} rel="noopener noreferrer">
                 <button className="connect"> Connect With Us</button>
               </a>
