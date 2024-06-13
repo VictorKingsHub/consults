@@ -31,7 +31,7 @@ export function IeltsIntro() {
             <div className={styles.register}>
                 <h2>Click the following button to register for your IELTS class</h2>
 
-                <Link href="#" >
+                <Link href="/travels/ielts/ieltsRegister/" >
                     <span className={styles.btn}>
                         Register
                     </span>

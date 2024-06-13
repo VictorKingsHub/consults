@@ -91,7 +91,7 @@ export const FOOTER_CONTENT = {
         { label: "IELTS Exams", link: "/travels/ielts" , id: 7},
         { label: "Visa Processing", link: "/travels/visaprocessing" , id: 8},
         { label: "Cambridge Curriculum", link: "/education/cambridgeCurriculum" , id: 9 },
-        { label: "Trained Teachers", link: "/education/trainedteachersacademy" , id:10 },
+        { label: "Trained Teachers Academy", link: "/education/trainedteachersacademy" , id:10 },
     ],
     opening:[
         {title: "OPENING HOURS", id: 1},

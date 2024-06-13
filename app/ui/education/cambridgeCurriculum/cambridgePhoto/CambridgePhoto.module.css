@@ -1,0 +1,19 @@
+.container {
+    background-image: linear-gradient(to left, rgba(199, 112, 85, 0.301), rgba(199, 112, 85, 0.301)), url('/cam.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 70vh;
+    
+    @media(max-width: 768px) {
+        padding: .5rem .3rem;
+        justify-content: center;
+        height: fit-content;
+    }
+}

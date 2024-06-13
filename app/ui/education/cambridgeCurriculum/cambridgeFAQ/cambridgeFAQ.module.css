@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    background-color: var(--white);
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: sticky;
+    
+    @media(max-width: 768px) {
+        padding: .5rem .3rem;
+        justify-content: center;
+        height: fit-content;
+    }
+}

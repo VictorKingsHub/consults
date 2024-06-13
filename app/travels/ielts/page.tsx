@@ -5,7 +5,6 @@ import { IeltsIntro } from '@/app/ui/travels/ielts/ieltsIntro/IeltsIntro'
 import IeltsPartnership from '@/app/ui/travels/ielts/ieltsPartnership/IeltsPartnership'
 import IeltsTakes from '@/app/ui/travels/ielts/ieltsTakes/IeltsTakes'
 import IeltsLearning from '@/app/ui/travels/ielts/learnings/IeltsLearnings'
-import Photos from '@/app/ui/travels/ielts/photos/Photos'
 
 const IeltsPage = () => {
   return (
@@ -13,8 +12,6 @@ const IeltsPage = () => {
       <HeroImage />
 
       <IeltsIntro />
-
-      {/* <Photos /> */}
 
       <IeltsCountries />
 
