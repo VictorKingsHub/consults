@@ -13,19 +13,19 @@ export function IeltsIntro() {
             <div className={styles.photo}>
                 <div>
                     <Image src="/house3.jpg" alt='' width={300} height={300} className={styles.img} />
-                    <span className='font-semibold'>General IELTS class</span>
+                    <span className='font-semibold sm:text-sm'>General IELTS class</span>
                 </div>
                 <div>
                     <Image src="/house3.jpg" alt='' width={300} height={300} className={styles.img} />
-                    <span className='font-semibold'>Private Executive class</span>
+                    <span className='font-semibold sm:text-sm'>Private Executive class</span>
                 </div>
                 <div>
                     <Image src="/house3.jpg" alt='' width={300} height={300} className={styles.img} />
-                    <span className='font-semibold'>Private Executive Home Service</span>
+                    <span className='font-semibold sm:text-sm'>Private Executive Home Service</span>
                 </div>
                 <div>
                     <Image src="/house3.jpg" alt='' width={300} height={300} className={styles.img} />
-                    <span className='font-semibold'>Vrtual Class Tutoting (Private/General) </span>
+                    <span className='font-semibold sm:text-sm'>Vrtual Class Tutoting (Private/General) </span>
                 </div>
             </div>
             <div className={styles.register}>
