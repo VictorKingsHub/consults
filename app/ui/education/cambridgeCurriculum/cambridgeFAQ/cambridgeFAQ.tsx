@@ -1,14 +1,16 @@
 import React from 'react'
 import styles from "./cambridgeFAQ.module.css"
+import Faq from '../faq/Faq'
 
 const CambridgeFAQ = () => {
     return (
         <div className={styles.container}>
             <div className={styles.keyPoints}>
                 <div className={styles.one}>
-                    <h1>KEY BENEFITS</h1>
-                    <p>The Cambridge International Curriculum is based on set of common principles underpinned by the best educational and assessment practice. It is international in it’s outlook and commitment. </p>
-                    <ul>
+                    <h1 >KEY BENEFITS</h1>
+                    <p>The Cambridge International Curriculum is based on set of common principles underpinned by the best educational and assessment practice.
+                        <br />It is international in it&apos;s outlook and commitment. </p>
+                    <ul className={styles.ul}>
                         <li>Quality and coherence delivery</li>
                         <li> Professional Assesment Standards </li>
                         <li> High Professional Resources </li>
@@ -16,7 +18,7 @@ const CambridgeFAQ = () => {
                         <li> A Partnership Approach </li>
                     </ul>
                 </div>
-                <div className={styles.two}>
+                {/* <div className={styles.two}>
                     <h1>FEATURING</h1>
                     <p>The Cambridge International Curriculum is based on set of common principles underpinned by the best educational and assessment practice. It is international in it’s outlook and commitment. </p>
                     <ul>
@@ -30,9 +32,11 @@ const CambridgeFAQ = () => {
                         <li>  Evaluation Technically of setting Questions in British Curriculum </li>
                         <li> Review of past questions and marking guide</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
-            <div className={styles.FAQ}></div>
+            <div className={styles.FAQ}>
+                <Faq />
+            </div>
         </div>
     )
 }
