@@ -52,10 +52,8 @@
 .answer {
     background-color: var(--white);
     color: #333333;
-    font-weight: 500;
     padding: .5rem 1rem;
     width: 100%;
-
 }
 
 .name {
