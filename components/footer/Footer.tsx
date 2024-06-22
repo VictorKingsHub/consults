@@ -59,6 +59,8 @@ export default function Footer() {
             </span>
             
              </div>
+
+             
           </Marquee>
         </div>
         <div className={styles.three}>

@@ -1,0 +1,45 @@
+.container {
+    width: 100vw;
+    background-color: var(--white);
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    margin: 0 auto;
+
+    @media(max-width: 768px) {
+        padding: .5rem .3rem;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+    }
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: var( --dark);
+    background-color: var(--lightestBlue);
+
+    padding: 0 2rem;
+
+}
+
+.marquee {
+    margin: 0 2rem;
+}
+
+.marquee .img {
+    border-radius: .3rem;
+}
+
+.marquee{
+    display: flex;
+    flex-direction: row;
+}
+.job{
+    margin: 0 2rem;
+}
