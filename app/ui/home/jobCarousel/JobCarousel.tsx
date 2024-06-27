@@ -13,7 +13,7 @@ const JobCarousel = () => {
 
             <Marquee pauseOnHover={true} pauseOnClick={true} gradient={true} gradientColor=" " gradientWidth={50} className={styles.marquee} >
                 <div className={styles.job}>
-                    <Link href={"/recentJobs"}>
+                    <Link href={"/recentJobs"} target='_blank'>
                         <Image
                             src="/britishCounsilL.jpg"
                             // src="/snap.jpg"
@@ -25,7 +25,7 @@ const JobCarousel = () => {
                     </Link>
                 </div>
                 <div className={styles.job}>
-                    <Link href={"/recentJobs"}>
+                    <Link href={"/recentJobs"} target='_blank'>
                         <Image
                             src="/britishCounsilL.jpg"
                             // src="/snap.jpg"
@@ -37,7 +37,7 @@ const JobCarousel = () => {
                     </Link>
                 </div>
                 <div className={styles.job}>
-                    <Link href={"/recentJobs"}>
+                    <Link href={"/recentJobs"} target='_blank'>
                         <Image
                             src="/britishCounsilL.jpg"
                             // src="/snap.jpg"
@@ -49,7 +49,7 @@ const JobCarousel = () => {
                     </Link>
                 </div>
                 <div className={styles.job}>
-                    <Link href={"/recentJobs"}>
+                    <Link href={"/recentJobs"} target='_blank'>
                         <Image
                             src="/britishCounsilL.jpg"
                             // src="/snap.jpg"
