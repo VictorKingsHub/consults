@@ -22,10 +22,7 @@
     font-weight: 600;
     margin: 30px 0;
     color: var( --dark);
-    background-color: var(--lightestBlue);
-
     padding: 0 2rem;
-
 }
 
 .marquee {
