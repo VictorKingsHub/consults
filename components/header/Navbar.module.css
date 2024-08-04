@@ -79,13 +79,13 @@
     margin: 0 1rem;
     color: var(--orangered);
     border-bottom: 2px solid var(--orangered);                       
-
+    
     @media(max-width: 768px) {
         color: var(--white);
         font-weight: 300;
         font-size: 13px;
         margin: 0 .2rem;
-    border-width: 1px;                     
+        border-bottom: 1px solid var(--orangered);                       
 
 
     }
