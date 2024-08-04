@@ -19,10 +19,11 @@
         background-color: var(--footerDark);
         opacity: .9;
         flex-direction: column;
-        height: 70vh;
+        /* height: 20vh; */
         justify-content: center;
         align-items: center;
-        display: none;
+        padding: 0.2em;
+        /* display: none; */
     }
 }
 
@@ -63,10 +64,13 @@
     font-weight: 600;
     margin: 0 1rem;
     color: var(--dark);
-
+    
     @media(max-width: 768px) {
         color: var(--white);
-        font-weight: 500;
+        font-weight: 300;
+        font-size: 12px;
+        margin: 0 .2rem;
+        /* font-weight: 500; */
     }
 }
 
@@ -79,7 +83,12 @@
 
     @media(max-width: 768px) {
         color: var(--white);
-        font-weight: 500;
+        font-weight: 300;
+        font-size: 12px;
+        margin: 0 .2rem;
+    border-width: 1px;                     
+
+
     }
 }
 
@@ -93,4 +102,11 @@
 
 .burger{
     display: none;
+}
+
+.appoint {
+
+    @media(max-width: 768px) {
+        display: none;
+    }
 }
