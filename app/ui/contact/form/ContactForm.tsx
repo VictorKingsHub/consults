@@ -139,6 +139,7 @@ const ContactForm = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Enter Your Message Here"
+              className={styles.textarea}
               required
             ></textarea>
           </div>
