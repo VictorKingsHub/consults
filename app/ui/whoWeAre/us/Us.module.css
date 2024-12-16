@@ -24,12 +24,15 @@
     padding: 4rem 6rem;
     background-color: var(--light);
     width: 100%;
-
+    border: 2px solid yellow;
+    
     @media(max-width: 768px) {
         flex-direction: column;
         height: fit-content;
         padding: .5rem;
         width: 100%;
+        border: 2px solid rebeccapurple;
+        justify-content: center;
     }
 }
 
