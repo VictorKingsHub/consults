@@ -5,21 +5,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* text-align: center; */
-  /* background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/road.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;    */
-
+    padding: .5rem 1rem;
 
   @media(max-width: 768px) {
-        height: 50vh;
+        height: 45vh;
 }
 }
 
 
 .h1{
   color: var(--blue);
+  line-height: 2.2rem;
+  text-align: center;
 
   font-size: 2rem;
   font-weight: 700;
