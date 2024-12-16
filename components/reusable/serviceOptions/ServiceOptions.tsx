@@ -38,13 +38,6 @@ const ServiceOptions = ({ label1, label2, label3, label4, desc1, desc2, desc3, d
                                         <p className={styles.desc}>{desc3}</p>
                                 </Link>
                         </div>
-
-                        <div className={styles.service}>
-                                <Link href={"/education/contactConnect"} >
-                                        <h3 className={styles.label}>{label4}</h3>
-                                        <p className={styles.desc}>{desc4}</p>
-                                </Link>
-                        </div>
                 </div>
         )
 }

@@ -24,7 +24,6 @@ export default function UsSection() {
         <div className={styles.container}>
             <RightSection vissionTitle={'Our Vision'} coreValueTitle={''} vissionImage={"/team1.jpg"} coreValueImage={undefined} vissionDescription={'Our vision is to bridge cultures, connect minds, and empower futures. We envision a world where education, travel, and career opportunities know no borders, and where individuals can reach their full potential. We strive to be the catalyst for transformative experiences that inspire growth, understanding, and success.'} vissionImageAlt={'Vission Image'} />
 
-
             <LeftSection missionTitle={'Our Mission'} missionDescription={'Our mission is to empower students, educators, and professionals to reach their full potential. With our expertise and dedication, we strive to deliver exceptional services that exceed expectations.'} missionImage={"/team1.jpg"} missionImageAlt={'mission Image'} />
 
             <RightSection

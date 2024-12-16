@@ -15,7 +15,7 @@ const JobCarousel = () => {
                 <div className={styles.job}>
                     <Link href={"/recentJobs"} target='_blank'>
                         <Image
-                            src="/britishCounsilL.jpg"
+                            src="/f.jpg"
                             // src="/snap.jpg"
                             width={350}
                             height={350}
@@ -27,7 +27,7 @@ const JobCarousel = () => {
                 <div className={styles.job}>
                     <Link href={"/recentJobs"} target='_blank'>
                         <Image
-                            src="/britishCounsilL.jpg"
+                            src="/f2.jpg"
                             // src="/snap.jpg"
                             width={350}
                             height={350}
@@ -39,7 +39,7 @@ const JobCarousel = () => {
                 <div className={styles.job}>
                     <Link href={"/recentJobs"} target='_blank'>
                         <Image
-                            src="/britishCounsilL.jpg"
+                            src="/f1.jpg"
                             // src="/snap.jpg"
                             width={350}
                             height={350}
@@ -51,7 +51,7 @@ const JobCarousel = () => {
                 <div className={styles.job}>
                     <Link href={"/recentJobs"} target='_blank'>
                         <Image
-                            src="/britishCounsilL.jpg"
+                            src="/f3.jpg"
                             // src="/snap.jpg"
                             width={350}
                             height={350}

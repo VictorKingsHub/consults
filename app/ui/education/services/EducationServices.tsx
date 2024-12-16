@@ -28,8 +28,8 @@ const EducationServicesPage = () => {
                             <Link href={serviceItem.link}>
                                 <Image
                                     src={serviceItem.image}
-                                    width={200}
-                                    height={200}
+                                    width={150}
+                                    height={150}
                                     alt={serviceItem.label}
                                     onMouseEnter={() => handleSelection(serviceItem.id)}
                                     onMouseLeave={() => handleSelection(null)}
@@ -40,7 +40,7 @@ const EducationServicesPage = () => {
                                 <h1
                                     className={` ${selected === serviceItem.id ? styles.activeLabel : styles.label} `}
                                 >{serviceItem.label}</h1>
-                                {/* <p className={styles.desc}> {serviceItem.description} </p> */}
+                                <p className={styles.desc}> {serviceItem.description} </p>
                             </div>
                         </div>
                     )

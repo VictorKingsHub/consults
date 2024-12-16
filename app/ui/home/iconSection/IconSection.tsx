@@ -1,10 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from "./IconSection.module.css"
-import { PiGraduationCapThin, PiHeartLight, PiMapPinAreaLight } from "react-icons/pi";
-import { PiAirplaneTiltThin } from "react-icons/pi";
+import { PiGraduationCapThin} from "react-icons/pi";
 import { CiCompass1 } from "react-icons/ci"
-import { PiChalkboardTeacherThin } from "react-icons/pi";
 import { PiBookOpenTextThin } from "react-icons/pi";
 import { SiSemanticscholar } from 'react-icons/si';
 
@@ -15,7 +13,7 @@ const IconSection = () => {
       <div className={styles.wrapper}>
         <div className={styles.both}>
           <Link href="/travels/visaprocessing" className={styles.link}>
-            <CiCompass1 className={styles.serviceIcon} />
+            <CiCompass1 className={styles.serviceIcon} style={{ fontWeight: '700' }}/>
             <div className={styles.iconText}> Visa Processing </div>
           </Link>
         </div>

@@ -9,7 +9,7 @@
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
-    padding: 2rem 3rem;
+    /* padding: 1rem; */
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -195,7 +195,6 @@
 }
 
 .two {
-    /* background-image: linear-gradient(to left, rgba(60, 60, 122, 0.466), rgba(38, 40, 46, 0.459)), url('/on_a_walk.jpg'); */
     background-color: rebeccapurple;
     background-position: center;
     background-size: cover;
@@ -208,7 +207,6 @@
 }
 
 .three {
-    /* background-image: linear-gradient(to left, rgba(216, 29, 29, 0.151), rgba(131, 67, 67, 0.795)), url('/travelHero.jpg'); */
     background-color: rebeccapurple;
     background-position: center;
     background-size: cover;
@@ -222,7 +220,6 @@
 }
 
 .four {
-    /* background-image: linear-gradient(to left, rgba(19, 20, 20, 0), rgba(180, 20, 20, 0.452)), url('/relaxation.png'); */
     background-color: rebeccapurple;
     background-position: center;
     background-size: cover;

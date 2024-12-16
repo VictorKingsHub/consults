@@ -44,9 +44,9 @@ export const EDUCATIONSERVICES = [
 ]
 
 export const TRAVELSERVICES = [
-    { label: "VISA PROCESSING", link: "/travels/visaprocessing", description: "We gives you an indication of how long your Visa application may take to process", image: "/visa.png", id: 1 },
-    { label: "IELTS EXAMS", link: "/travels/ielts", description: "IELTS test assesses Listening, Reading, Writing, and Speaking ", image: "/ielts.png", id: 2},
-    { label: "JOB SECURING", link: "/travels/jobSecuring", description: "Get opportunities Abroad for scholarships and Jobs ", image: "/jobSecuring.png" },
+    { label: "VISA PROCESSING", link: "/travels/visaprocessing", description: "We gives you an indication of how long your Visa application may take to process We gives you an indication of how long your Visa application may take to process", image: "/visa.png", id: 1 },
+    { label: "IELTS EXAMS", link: "/travels/ielts", description: "IELTS test assesses Listening, Reading, Writing, and Speaking IELTS test assesses Listening, Reading, Writing, and Speaking ", image: "/ielts.png", id: 2},
+    { label: "JOB SECURING", link: "/travels/jobSecuring", description: "Get opportunities Abroad for scholarships and Jobs Get opportunities Abroad for scholarships and Jobs ", image: "/jobSecuring.png" },
 ]
 export const TRAVEL_WHYCHOOSEUS = [
     { label: "TRAVEL RISK ASSESSMENT", button: "Learn More", link: "/travel", description: "Riskout Travels conducts comprehensive risk assessments to identify potential hazards and threats associated with travel", image: "/ielts.png", id: 1 },
