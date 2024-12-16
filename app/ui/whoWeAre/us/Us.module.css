@@ -9,10 +9,9 @@
     align-items: center;
     gap: 2rem;
     color: var(--gray);
-    /* font-family: Raleway, sans-serif; */
 
     @media(max-width: 768px) {
-        padding: 1.5rem 1rem;
+        padding: .5rem;
     }
 }
 
@@ -29,7 +28,7 @@
     @media(max-width: 768px) {
         flex-direction: column;
         height: fit-content;
-        padding: 1rem;
+        padding: .5rem;
         width: 100%;
     }
 }
