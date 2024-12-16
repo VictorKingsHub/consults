@@ -9,11 +9,10 @@
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
-    /* padding: 1rem; */
 
     @media (max-width: 768px) {
         flex-direction: column;
-        padding: 2px;
+        padding: 2rem 1rem;
         gap: 5px;
         width: 100%;
         height: fit-content;
