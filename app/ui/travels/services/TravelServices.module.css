@@ -8,6 +8,7 @@
     background-image: linear-gradient(to top left, var(--red), var(--blue));
     width: 100vw;
     opacity: 9;
+    margin: 0 auto;
 
     @media(max-width: 768px) {
         padding: 1rem;
@@ -72,7 +73,7 @@
     height: 50vh;
     align-self: center;
     align-items: center;
-    padding: 1rem .5rem .2rem .5rem;
+    padding: 1rem .5rem;
     border-radius: 10px;
     justify-content: start;
     gap: 10px;
