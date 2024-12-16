@@ -53,7 +53,8 @@
     padding: 1rem;
     border-radius: 10px;
     gap: 10px;
-    width: 90%;
+    width: 100%;
+    background-color: rebeccapurple;
 }
 
 .form div {
