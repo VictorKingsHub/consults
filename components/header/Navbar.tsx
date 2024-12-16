@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
 
         <IoMenu
-          className='cursor-pointer text-white'
+          className='cursor-pointer text-white text-4xl'
           onClick={() => setOpen(prev => !prev)}
         />
         {open && (
