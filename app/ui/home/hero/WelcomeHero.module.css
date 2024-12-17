@@ -34,7 +34,7 @@
     justify-content: center;
 
     @media(max-width: 768px) {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -46,7 +46,7 @@
 
     @media (max-width: 768px) {
         padding: .1rem;
-        width: 80%;
+        width: 95%;
         border: 1px solid var(--orange);
     }
 }

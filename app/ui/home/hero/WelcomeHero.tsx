@@ -22,9 +22,6 @@ export default function WelcomeHero(){
                         <Button text={'Study and Work abroad'} link={'/travels'} />
                     </div>
                 </div>
-                {/* <div className={styles.img}>
-                    <Image src={photo4} alt='plane' width={250} height={250} className={styles.imgplane} />
-                </div> */}
             </div>
 
             <div className={styles.image}>
