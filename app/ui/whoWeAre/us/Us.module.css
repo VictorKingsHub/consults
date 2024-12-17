@@ -21,18 +21,15 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
-    padding: 4rem 6rem;
+    height: 70vh;
     background-color: var(--light);
+    padding: 4rem 6rem;
     width: 100%;
-    border: 2px solid yellow;
-    
+
     @media(max-width: 768px) {
         flex-direction: column;
         height: fit-content;
-        padding: .5rem;
-        width: 100%;
-        border: 2px solid rebeccapurple;
-        justify-content: center;
+        padding: 1rem;
     }
 }
 
