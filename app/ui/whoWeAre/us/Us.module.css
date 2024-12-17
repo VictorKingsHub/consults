@@ -24,6 +24,7 @@
     background-color: var(--white);
     padding: 4rem 6rem;
     width: 100%;
+    flex-wrap: wrap;
 
     @media(max-width: 768px) {
         flex-direction: column;
