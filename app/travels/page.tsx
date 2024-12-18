@@ -96,15 +96,6 @@ const TravelsPage = () => {
         l5='Get certified'
         l6='Green Card'
       /> 
-
-      {/* <CountryDropdown  /> */}
-      {/* <TravelHeroSection /> */}
-      <div className="tra_service">
-        {/* <ServicesHead title='Travel Services' /> */}
-        {/* <ServicesPage /> */}
-      </div>
-      {/* <Join /> */}
-      {/* <TravelReasons /> */}
     </div>
   )
 }

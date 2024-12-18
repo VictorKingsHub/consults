@@ -1,8 +1,5 @@
 import React from 'react'
 import styles from "./TravelHeroSection.module.css"
-import photo from "@/public/skyscraperTop.jpg"
-// skyscraperTop
-import Image from 'next/image'
 
 const TravelHeroSection = () => {
     return (

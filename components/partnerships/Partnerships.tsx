@@ -10,32 +10,8 @@ const Partnership = () => {
         <p>Our Parnerships</p>
       </div>
       <div className={styles.logos}>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
-        </div>
-        <div className={styles.part}>
-          <Image src={"/visa.png"} alt='Visa' width={300} height={300} className={styles.img} />
+        <div className="text-8xl">
+          <p>PARTNERSHIP PAGE</p>
         </div>
       </div>
 
