@@ -1,233 +1,231 @@
 .container {
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--lightestBlue);
-    max-width: 100%;
-    box-sizing: border-box;
-    margin: 0;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightestBlue);
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
 
-    @media (max-width: 768px) {
-        flex-direction: column;
-        padding: 2rem 1rem;
-        gap: 5px;
-        width: 100%;
-        height: fit-content;
-    }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 5px;
+    width: 100%;
+    height: fit-content;
+  }
 }
 
 .imageWrapper {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
-    width: 35%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  width: 35%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 
-    @media(max-width: 768px) {
-        width: 100%;
-    }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .imageWrapper {
-    padding: .3rem;
-    background-color: transparent;
-    border: 4px double var(--orange);
-    border-radius: 10px;
+  padding: 0.3rem;
+  background-color: transparent;
+  border: 4px double var(--orange);
+  border-radius: 10px;
 
-    @media (max-width: 768px) {
-        padding: .1rem;
-        width: 95%;
-        border: 1px solid var(--orange);
-    }
+  @media (max-width: 768px) {
+    padding: 0.1rem;
+    width: 95%;
+    border: 1px solid var(--orange);
+  }
 }
 
 .img {
-    border-radius: 10px;
-    max-width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: start;
-    max-width: 50%;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  max-width: 50%;
+  padding: 2rem;
 
-    @media (max-width: 768px) {
-        min-width: 95%;
-        gap: 10px;
-        padding: .5rem .3rem;
-    }
+  @media (max-width: 768px) {
+    min-width: 95%;
+    gap: 10px;
+    padding: 0.5rem 0.3rem;
+  }
 }
 
 .image {
-    min-width: 25%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+  min-width: 25%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 
-    @media (max-width: 768px) {
-        width: 95%;
-    }
+  @media (max-width: 768px) {
+    width: 95%;
+  }
 }
 
 .welcome {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: -15px;
-    color: var(--red);
-    opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: -15px;
+  color: var(--red);
+  opacity: 0.7;
 }
 
 @media (max-width: 768px) {
-    .welcome {
-        font-size: 13px;
-        font-weight: 400;
-    }
+  .welcome {
+    font-size: 13px;
+    font-weight: 400;
+  }
 }
 
 .header {
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 50px;
-    padding-bottom: 5px;
-    background: var(--blue);
-    background: linear-gradient(to right, var(--blue) 25%, var(--red) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.315);
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  padding-bottom: 5px;
+  background: var(--blue);
+  background: linear-gradient(to right, var(--blue) 25%, var(--red) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.315);
 
-    @media (max-width: 768px) {
-        font-size: 27px;
-        line-height: 27px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
-    }
+  @media (max-width: 768px) {
+    font-size: 27px;
+    line-height: 27px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+  }
 }
 
 .description {
-    font-size: 22px;
-    line-height: 26px;
-    font-weight: 400;
-    margin: 12px 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 12px 0;
 
-    @media (max-width: 768px) {
-        font-size: 16px;
-        padding: .1rem;
-        line-height: 22px;
-    }
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 0.1rem;
+    line-height: 22px;
+  }
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    /* margin-right: 10px; */
-    margin: 7px auto;
+  display: flex;
+  flex-direction: row;
+  /* margin-right: 10px; */
+  margin: 7px auto;
 
-    @media (max-width: 768px) {
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-    }
-
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.btn{
-    margin: 0 12px;
+.btn {
+  margin: 0 12px;
 }
 
 .embla {
-    overflow: hidden;
-    z-index: -10;
-    max-width: 100%;
-    min-width: 100%;
+  overflow: hidden;
+  z-index: -10;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.embla__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  min-height: 100%;
+
+  @media (max-width: 768px) {
+    min-height: fit-content;
+    max-height: fit-content;
+    padding: 1rem 0.5rem;
   }
-  
-  .embla__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    width: 100%;
-  }
-  
-  .embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
-    min-height: 100%;
-  
-    @media(max-width: 768px) {
-      min-height: fit-content;
-      max-height: fit-content;
-      padding: 1rem .5rem;
-    }
-  }
-  
+}
+
 .one {
-    /* background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/w.jpeg'); */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-    width: 100%;
-    background-color: rebeccapurple;
-    
-    @media(max-width: 768px) {
-        padding: .3rem;
-    }
+  /* background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/w.jpeg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  width: 100%;
+  background-color: rebeccapurple;
+
+  @media (max-width: 768px) {
+    padding: 0.3rem;
+  }
 }
 
 .two {
-    background-color: rebeccapurple;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  background-color: rebeccapurple;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .three {
-    background-color: rebeccapurple;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
+  background-color: rebeccapurple;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
 }
 
 .four {
-    background-color: rebeccapurple;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  
+  background-color: rebeccapurple;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
