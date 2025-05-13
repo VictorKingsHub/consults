@@ -10,10 +10,13 @@
   justify-content: space-around;
   align-items: center;
   z-index: 2000;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
 
   @media (max-width: 768px) {
     background-color: var(--footerDark);
-    /* background-color: red; */
     opacity: 0.9;
     flex-direction: column;
     justify-content: center;
@@ -27,9 +30,11 @@
 
 .largeMenuItem {
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.3rem;
   margin: 0 1rem;
   color: var(--dark);
+  
 
   @media (max-width: 768px) {
     color: var(--white);
@@ -41,7 +46,8 @@
 
 .largeMenuItemActive {
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.3rem;
   margin: 0 1rem;
   color: var(--orangered);
   border-bottom: 2px solid var(--orangered);

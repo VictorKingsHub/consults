@@ -31,6 +31,11 @@
 
 .marquee .img {
     border-radius: .3rem;
+
+
+    @media(max-width: 768px) {
+        width: 70%;
+    }
 }
 
 .marquee{
@@ -40,4 +45,8 @@
 
 .job{
     margin: 0 2rem;
+
+    @media(max-width: 768px) {
+margin: 0 .1rem;
+    }
 }

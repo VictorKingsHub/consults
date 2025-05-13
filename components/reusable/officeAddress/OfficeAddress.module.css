@@ -19,9 +19,10 @@
 .location{
     font-weight: 600;
     color: var(--orange);
+    font-size: 1.2rem;
 }
 .office{
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 19px;
     color: var(--smoke);
 }

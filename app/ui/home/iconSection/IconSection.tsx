@@ -11,7 +11,7 @@ const IconSection = () => {
     <div className={styles.container}>
 
       <div className={styles.wrapper}>
-        <div className={styles.both}>
+        <div className={styles.both} >
           <Link href="/travels/visaprocessing" className={styles.link}>
             <CiCompass1 className={styles.serviceIcon} style={{ fontWeight: '700' }}/>
             <div className={styles.iconText}> Visa Processing </div>

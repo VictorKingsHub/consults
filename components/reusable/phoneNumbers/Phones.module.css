@@ -17,7 +17,7 @@
 }
 .link{
     color: var(--smoke);
-    font-size: 14px;
+    font-size: 1rem;
 }
 .link:hover{
     color: var(--blue);
