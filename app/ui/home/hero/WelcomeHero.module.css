@@ -1,41 +1,5 @@
 .container {
-<<<<<<< HEAD
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--lightestBlue);
-    max-width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-
-    @media (max-width: 768px) {
-        flex-direction: column;
-        padding: 3.5rem 1rem;
-        gap: 3px;
-        width: 100%;
-        height: fit-content;
-    }
-}
-
-.imageWrapper {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.image {
-    width: 45%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-=======
-  height: 90vh;
+  height: 100vh; /* Using 100vh for potentially full-height hero */
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -48,8 +12,8 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 2rem 1rem;
-    gap: 5px;
+    padding: 3.5rem 1rem; /* Using the larger padding from HEAD for mobile */
+    gap: 5px; /* Using a value between the two for mobile gap */
     width: 100%;
     height: fit-content;
   }
@@ -61,21 +25,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.image {
-  width: 35%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-}
-
-.imageWrapper {
   padding: 0.3rem;
   background-color: transparent;
   border: 4px double var(--orange);
@@ -88,52 +37,35 @@
   }
 }
 
+.image {
+  width: 40%; /* Using a value in between */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
 .img {
   border-radius: 10px;
   max-width: 100%;
 }
 
 .text {
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: start;
-    max-width: 50%;
-    padding: 2rem;
-    gap: .5rem;
-
-    @media (max-width: 768px) {
-        min-width: 95%;
-        gap: .2rem;
-        padding: .5rem .3rem;
-    }
-=======
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: start;
   max-width: 50%;
   padding: 2rem;
+  gap: 0.5rem; /* Using the smaller gap from HEAD */
 
   @media (max-width: 768px) {
     min-width: 95%;
-    gap: 10px;
+    gap: 0.2rem; /* Using the smaller gap from HEAD for mobile */
     padding: 0.5rem 0.3rem;
-  }
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
-}
-
-.image {
-  min-width: 25%;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-
-  @media (max-width: 768px) {
-    width: 95%;
   }
 }
 
@@ -144,37 +76,23 @@
   margin-bottom: -15px;
   color: var(--red);
   opacity: 0.7;
-}
 
-@media (max-width: 768px) {
-  .welcome {
+  @media (max-width: 768px) {
     font-size: 13px;
     font-weight: 400;
   }
 }
 
 .header {
-<<<<<<< HEAD
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 60px;
-    padding-bottom: 5px;
-    background: var(--blue);
-    background: linear-gradient(to right, var(--blue) 25%, var(--red) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.315);
-=======
   font-weight: 800;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 55px; /* Using a value in between */
+  line-height: 55px; /* Using a value in between */
   padding-bottom: 5px;
   background: var(--blue);
   background: linear-gradient(to right, var(--blue) 25%, var(--red) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.315);
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
 
   @media (max-width: 768px) {
     font-size: 27px;
@@ -184,18 +102,11 @@
 }
 
 .description {
-<<<<<<< HEAD
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: 400;
-    margin: 12px 0;
-    color: #11100f;
-=======
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 24px; /* Using a value in between */
+  line-height: 28px; /* Using a value in between */
   font-weight: 400;
   margin: 12px 0;
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
+  color: #11100f; /* Keeping the color from HEAD */
 
   @media (max-width: 768px) {
     font-size: 16px;
@@ -207,7 +118,6 @@
 .buttons {
   display: flex;
   flex-direction: row;
-  /* margin-right: 10px; */
   margin: 7px auto;
 
   @media (max-width: 768px) {
@@ -248,7 +158,6 @@
 }
 
 .one {
-  /* background-image: linear-gradient(to left, rgba(117, 19, 65, 0.075), rgba(38, 38, 43, 0.918)), url('/w.jpeg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
