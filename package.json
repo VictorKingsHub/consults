@@ -14,11 +14,11 @@
     "embla-carousel-autoplay": "^8.0.4",
     "embla-carousel-react": "^8.0.4",
     "express": "^4.21.2",
-<<<<<<< HEAD
+// <<<<<<< HEAD
     "framer-motion": "^11.15.0",
-=======
+// =======
     "gsap": "^3.12.7",
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
+// >>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
     "mysql2": "^3.11.5",
     "next": "14.2.3",
     "nodemailer": "^6.9.16",
