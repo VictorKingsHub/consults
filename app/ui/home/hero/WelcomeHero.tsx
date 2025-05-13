@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-'use client'
-import React from 'react'
-import styles from './WelcomeHero.module.css'
-import { Button, ButtonBackground } from '@/components/reusable/button/Button'
-import Image from 'next/image'
-import { motion } from 'framer-motion';
-
-export default function WelcomeHero () {
-  return (
-    <motion.div
-      className={styles.container}>
-      <div className={styles.text}>
-        <h1 className={styles.header}>
-=======
 "use client";
 import React, { useEffect, useRef } from "react";
 import styles from "./WelcomeHero.module.css";
@@ -78,7 +63,6 @@ export default function WelcomeHero() {
     <div className={styles.container}>
       <div className={styles.text} ref={textDivRef}>
         <h1 className={styles.header} ref={headerRef}>
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
           Educational Placement and Travel & Study Abroad
         </h1>
         <p className={styles.description}>
@@ -90,47 +74,16 @@ export default function WelcomeHero() {
         <div className={styles.buttons}>
           <div className={styles.btn}>
             <ButtonBackground
-<<<<<<< HEAD
-              text={'Educational Consulting'}
-              link={'/education'}
-            />
-          </div>
-          <div className={styles.btn}>
-            <Button text={'Study and Work abroad'} link={'/travels'} />
-=======
               text={"Educational Consulting"}
               link={"/education"}
             />
           </div>
           <div className={styles.btn}>
             <Button text={"Study and Work abroad"} link={"/travels"} />
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
           </div>
         </div>
       </div>
 
-<<<<<<< HEAD
-      <div className={styles.image}>
-        <motion.div className={styles.imageWrapper}
-           whileHover={{
-            scale: 1.1,
-            rotate: 5,
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)',
-          }}
-          transition={{ type: 'spring', stiffness: 300, damping: 10 }}
-        >
-          <Image
-            src='/man.jpg'
-            width={350}
-            height={350}
-            alt='traveller'
-            className={styles.img}
-          />
-        </motion.div>
-      </div>
-    </motion.div>
-  )
-=======
       <div className={styles.image} ref={imageDivRef}>
         <div className={styles.imageWrapper}>
           <Image
@@ -145,5 +98,4 @@ export default function WelcomeHero() {
       </div>
     </div>
   );
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
 }

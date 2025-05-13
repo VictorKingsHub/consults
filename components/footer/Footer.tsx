@@ -7,8 +7,7 @@ import SocialMediaLinks from "../reusable/socialMediaIcons/SocialMediaLinks";
 import PhonesNumbers from "../reusable/phoneNumbers/Phones";
 import OfficeAddress from "../reusable/officeAddress/OfficeAddress";
 import Image from "next/image";
-<<<<<<< HEAD
-import footerImage from "../../public/footer.jpg"
+import footerImage from "../../public/footer.jpg";
 import { useState, useEffect } from 'react';
 
 export default function Footer() {
@@ -21,12 +20,6 @@ export default function Footer() {
 
     return () => clearInterval(intervalId); // Clean up the interval on unmount
   }, []);
-=======
-import footerImage from "../../public/footer.jpg";
-
-export default function Footer() {
-  const currentYear = new Date().getFullYear();
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
 
   return (
     <div className={styles.container}>
@@ -84,22 +77,11 @@ export default function Footer() {
               <p className="ml-3 text-[#f8f8f8]"> Saturday: 9:00am - 3:00pm </p>{" "}
             </div>
           </div>
-<<<<<<< HEAD
-
-=======
-          <div className="mt-5">
-            <ButtonBackground
-              text={"Request an appointment"}
-              link={"/contact"}
-            />
-          </div>
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
         </div>
       </div>
 
       <div className={styles.last}>
         <div className={styles.two}>
-<<<<<<< HEAD
           <Marquee pauseOnHover={true} pauseOnClick={true} gradient={true} gradientColor=" " gradientWidth={50} >
             <div className={styles.marque} >
 
@@ -111,35 +93,10 @@ export default function Footer() {
             </span>
 
              </div>
-
-
           </Marquee>
         </div>
         <div className={styles.three}>
           <div className={styles.right}> Copyright © {currentYear} Riskoutconsults.com. All Rights Reserved.</div>
-=======
-          <Marquee
-            pauseOnHover={true}
-            pauseOnClick={true}
-            gradient={true}
-            gradientColor=" "
-            gradientWidth={50}
-          >
-            <div className={styles.marque}>
-              <span className="mx-[10vw]">
-                An organization built on respect and integrity.
-              </span>
-              <span className="mx-[10vw]">
-                The quality of our service makes the difference
-              </span>
-            </div>
-          </Marquee>
-        </div>
-        <div className={styles.three}>
-          <div className={styles.right}>
-            <p>&copy; {currentYear} Riskout Consults. All rights reserved.</p>
-          </div>
->>>>>>> a9585b48b14e6e18fd557fcca53c34cf3e83b903
         </div>
       </div>
     </div>
